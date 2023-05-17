@@ -1,0 +1,66 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.02em;
+  /* color: white; */
+}
+
+/* ======================= Utilites ========================== */
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.section {
+  padding-bottom: 80px;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding-bottom: 144px;
+  }
+
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section {
+    padding-bottom: 150px;
+  }
+
+  .container {
+    width: 1280px;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* ======================= /Utilites ========================== */
