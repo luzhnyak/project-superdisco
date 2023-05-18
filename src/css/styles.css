@@ -4,6 +4,8 @@
   | default @import url()
   |============================
 */
+
+@import url('./fonts.css');
 @import url('./reset.css');
 @import url('./base.css');
 @import url('./header.css');
@@ -12,5 +14,6 @@
 @import url('./contacts.css');
 @import url('./header.css');
 @import url('./footer.css');
+@import url('./modal.css');
 @import url('./modal-your-order.css');
 @import url('./modal-thank-you.css');
