@@ -9,6 +9,8 @@
 body {
   font-family: 'DM Sans', sans-serif;
   letter-spacing: 0.02em;
+  font-size: 14px;
+  line-height: 1.29;
   /* color: white; */
 }
 
@@ -27,14 +29,16 @@ body {
 }
 
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 @media screen and (min-width: 375px) {
   .container {
     width: 375px;
     margin: 0 auto;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
 
