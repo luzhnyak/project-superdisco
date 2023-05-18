@@ -1,3 +1,48 @@
 /* ======================= Hero ========================== */
+/* Hero upper part */
+.hero-container {
+    padding-bottom: 80px;
+    
+    background-color: var(--red-color);
+}
+
+.hero-header {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--white-color);
+}
+
+.hero-btn {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+}
+
+.hero-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.04em;
+}
+
+/* Hero fruit card one */
+.fruit-card-one {
+    background-color: var(--green-color);
+    border-radius: 500px;
+}
+
+/* Hashtag list */
+
+/* Hero fruit card two */
+.fruit-card-two {
+    background-color: var(--yellow-color);
+    border-radius: 500px;
+}
 
 /* ======================= /Hero ========================== */
