@@ -32,7 +32,7 @@
 }
 
 /* Hero fruit card one */
-.fruit-card-one {
+.hero-card-one {
     background-color: var(--green-color);
     border-radius: 500px;
 }
@@ -40,7 +40,7 @@
 /* Hashtag list */
 
 /* Hero fruit card two */
-.fruit-card-two {
+.hero-card-two {
     background-color: var(--yellow-color);
     border-radius: 500px;
 }
