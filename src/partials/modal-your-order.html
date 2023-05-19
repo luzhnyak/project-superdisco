@@ -1,14 +1,122 @@
 <!-- Modal your order -->
 
-<div class="modal" data-modal="thank-your-order">
-  <svg
-    class="modal__cross js-modal-close"
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 24 24"
-  >
-    <path
-      d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
-    />
-  </svg>
-  <h2>Modal your order</h2>
+<div class="modal" data-modal="your-order-modal">
+  <p class="modal-title">YOUR ORDER</p>
+  <button type="button" class="close-button" data-modal-close>
+    <svg width="24" height="24" class="close-button-icon">
+      <use href="./img/svg-icons/close-btn-modal.svg"></use>
+    </svg>
+  </button>
+  <form class="modal-form">
+    <ul class="basket-list list">
+      <li class="basket-item">
+        <input
+          type="checkbox"
+          id="strawbasket"
+          name="strawbasket"
+          value="true"
+          class="modal-check visually-hidden"
+        />
+        <label for="strawbasket" class="modal-lable-prpol">
+          <span>Strawberry Basket</span>
+          <p>Plant</p>
+          <img
+            src="./img/mod_straw_desktop1x.png"
+            alt="Strawberry Basket"
+            srcset="./img/mod_straw_desktop2x.png 2x"
+            height="196"
+            width="173"
+          />
+        </label>
+      </li>
+      <li class="basket-item">
+        <input
+          type="checkbox"
+          id="applebasket"
+          name="applebasket"
+          value="true"
+          class="modal-check visually-hidden"
+        />
+        <label for="applebasket" class="modal-lable-prpol">
+          <span>Apple Basket</span>
+          <p>Plant</p>
+          <img
+            src="./img/mod_apple_desktop1x.png"
+            alt="Strawberry Basket"
+            srcset="./img/mod_apple_desktop2x.png 2x"
+            height="196"
+            width="229"
+          />
+        </label>
+      </li>
+      <li class="basket-item">
+        <input
+          type="checkbox"
+          id="fruitsbasket"
+          name="fruitsbasket"
+          value="true"
+          class="modal-check visually-hidden"
+        />
+        <label for="fruitsbasket" class="modal-lable-prpol">
+          <span>Fruits Basket</span>
+          <p>Plant</p>
+          <img
+            src="./img/mod_fruits_desktop1x.png"
+            alt="Strawberry Basket"
+            srcset="./img/mod_fruits_desktop2x.png 2x"
+            height="196"
+            width="229"
+          />
+        </label>
+      </li>
+          </ul>
+    <div class="modal-field">
+      <div class="input-wrap">
+        <input
+          type="text"
+          class="modal-input"
+          name="client-name"
+          required
+          id="client-name"
+          placeholder="Enter full name..."
+        />
+      </div>
+      <div class="input-wrap">
+        <input
+          type="email"
+          class="modal-input"
+          name="email"
+          id="client-email"
+          placeholder="Enter email..."
+        />
+      </div>
+      <div class="input-wrap">
+        <input
+          type="number"
+          class="modal-input"
+          name="client-card"
+          required
+          id="client-card"
+          placeholder="Enter card..."
+        />
+      </div>
+      <div class="input-wrap">
+        <textarea
+          name="client-comment"
+          id="client-comment"
+          class="modal-textarea"
+          placeholder="Enter comments..."
+        >
+        </textarea>
+      </div>
+    </div>
+    <button type="submit" class="btn-modal">Submit</button>
+  </form>
+  <img
+    src="./img/mod_girl_desktop1x.png"
+    alt="Strawberry Basket"
+    srcset="./img/mod_girl_desktop2x.png 2x"
+    height="458"
+    width="471"
+  />
 </div>

@@ -1,3 +1,37 @@
 <!-- Contacts section -->
 
-<footer class="contacts-section section">Contacts</footer>
+<section class="contacts-section section">
+  <div class="container">
+    <h2 class="contacts-tittle">Fresh Harvest Box has got you covered</h2>
+    <ul class="list-images">
+      <li class="contact-imeges">
+        <img src="./img/contacts/mobile_melon_335-476.jpg" alt="melon" />
+      </li>
+      <li class="contact-imega">
+        <img
+          src="../img/contacts/tablet_blueberry_344-480.jpg"
+          alt="blueberry"
+        />
+      </li>
+    </ul>
+    <p class="text-info">
+      Our boxes are packed with delicious, nutritious fruits and vegetables,
+      perfect for anyone looking to eat healthier or support local farmers.
+      Order your box today and start enjoying the best that nature has to offer!
+    </p>
+    <form>
+      <label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter email..."
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+          required
+        />
+      </label>
+      <button class="js-open-modal" data-modal="thank-you-modal" type="button">
+        Send
+      </button>
+    </form>
+  </div>
+</section>
