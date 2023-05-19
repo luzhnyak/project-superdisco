@@ -1,3 +1,52 @@
 /* ======================= Fruits ========================== */
 
+.fruits-container {
+  background-color: var(--red-color);
+}
+
+/* mobile */
+@media only screen and (min-width: 375px) {
+  .fruits-tittle {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    text-align: center;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+
+    color: var(--white-color);
+    margin-bottom: 14px;
+  }
+}
+
+/* tablet */
+@media only screen and (min-width: 768px) {
+  .fruits-tittle {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}
+
+.fruits-text {
+}
+
+.fruits-list {
+}
+.list {
+}
+.fruits-item {
+}
+.fruits-item-title {
+}
+.fruits-item-text {
+}
+.fruits-price {
+}
+.fruits-price-text {
+}
+.js-open-modal {
+}
+.order-fruits-modal {
+}
+.order-arrow {
+}
 /*======================= /Fruits ========================== */
