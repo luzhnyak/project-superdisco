@@ -14,8 +14,14 @@ padding-bottom: 16px;
     height: 16px;
     fill: var(--red-color);
 }
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
 .logo-text{
-    font-weight: 700;
+ margin-left: 8px;   
+font-weight: 700;
 font-size: 14px;
 line-height: 1.3;
 text-align: center;
