@@ -3,7 +3,8 @@
     display: flex;
     align-items: center;
    justify-content: space-between;
-padding-left: 32px;
+/* padding-left: 32px; */
+
 padding-right: 32px;
 padding-top: 16px;
 padding-bottom: 16px;
@@ -13,8 +14,14 @@ padding-bottom: 16px;
     height: 16px;
     fill: var(--red-color);
 }
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
 .logo-text{
-    font-weight: 700;
+ margin-left: 8px;   
+font-weight: 700;
 font-size: 14px;
 line-height: 1.3;
 text-align: center;
@@ -53,7 +60,7 @@ color: var(--red-color);
   }
   
   @media screen and (max-width: 768px) {
-    .header-menu{
+    .header-nav{
         display: none;
     }
     .button-basket{
