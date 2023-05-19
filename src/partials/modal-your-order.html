@@ -25,7 +25,8 @@
               srcset="../img/mod_straw_desktop2x.png 2x"
               height="196" width="173">
         </label>
-        <li class="basket-item">
+      </li>
+      <li class="basket-item">
           <input                                    
               type="checkbox" 
               id="applebasket"
@@ -41,7 +42,8 @@
                 srcset="../img/mod_apple_desktop2x.png 2x"
                 height="196" width="229">
           </label>
-          <li class="basket-item">
+      </li>
+      <li class="basket-item">
             <input                                    
                 type="checkbox" 
                 id="fruitsbasket"
@@ -56,30 +58,53 @@
                   src="../img/mod_fruits_desktop1x.png" alt="Strawberry Basket" 
                   srcset="../img/mod_fruits_desktop2x.png 2x"
                   height="196" width="229">
-            </label>  
-          <div class="input-wrap">
-              <label for="client-comment" class="modal-lable">Comment</label>
-              <textarea 
-                  name="client-comment"
-                          id="client-comment"
-                          class="modal-textarea"
-                          placeholder="Text input"
-                          ></textarea>
-                  </div> 
-          </div>
-          <div class="modal-field">
-              <input                                    
-                  type="checkbox" 
-                  id="client-prpol"
-                  name="client-prpol"
-                  value="true"
-                  class="modal-check visually-hidden"
-              />
-              <label for="client-prpol" class="modal-lable-prpol"><span>I accept the terms and conditions of the <a class="link-priv-pol" href="">Privacy Policy</a></span></label>
-          </div>
-          <button type="submit" class="btn btn-modal">Send</button>
-      </form>
-  </div>
-</div>
-
+            </label> 
+      </li>
+    </ul>
+    <div class="modal-field">
+      <div class="input-wrap">
+                  <input                                    
+                  type="text" 
+                  class="modal-input" 
+                  name="client-name"
+                  required
+                  id="client-name"
+                  placeholder="Enter full name..."
+                  />
+      </div> 
+      <div class="input-wrap">
+                  <input                                    
+                  type="email" 
+                  class="modal-input" 
+                  name="email"
+                  id="client-email"
+                  placeholder="Enter email..."
+                  />
+      </div> 
+      <div class="input-wrap">
+        <input                                    
+        type="number" 
+        class="modal-input" 
+        name="client-card"
+        required
+        id="client-card"
+        placeholder="Enter card..."
+        />
+      </div>
+      <div class="input-wrap">
+                    <textarea 
+                      name="client-comment"
+                      id="client-comment"
+                      class="modal-textarea"
+                      placeholder="Enter comments..."
+                      >
+                    </textarea>
+      </div> 
+    </div> 
+    <button type="submit" class="btn-modal">Submit</button>
+  </form>
+  <img 
+  src="../img/mod_girl_desktop1x.png" alt="Strawberry Basket" 
+  srcset="../img/mod_girl_desktop2x.png 2x"
+  height="458" width="471">  
 </div>
