@@ -1,14 +1,34 @@
 <!-- Modal thank you -->
+<!-- Modal thank you -->
 
-<div class="modal" data-modal="thank-you-modal">
-  <svg
-    class="modal__cross js-modal-close"
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 24 24"
-  >
-    <path
-      d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
+<div class="modal modal-thank-you" data-modal="thank-you-modal">
+  <button class="modal-close-btn js-modal-close" type="button" data-modal-close>
+    <svg class="modal-close-svg" width="24px" height="24px">
+      <use href="./img/icons.svg#icon-close-btn"></use>
+    </svg>
+  </button>
+  <picture>
+    <source
+      srcset="./img/modal-thank-you/strawberry-tabDesk@1x.png 1x, ./img/modal-thank-you/strawberry-tabDesk@2x.png 2x"
+      media="(min-width:768px)"
     />
-  </svg>
-  <h2>Modal thank you</h2>
+    <source
+      srcset="./img/modal-thank-you/strawberry-mob@1x.png 1x, ./img/modal-thank-you/strawberry-mob@2x.png 2x"
+      media="(min-width:320px)"
+    />
+  </picture>
+  <img
+    src="./img/modal-thank-you/strawberry-mob@1x.png"
+    alt="strawberry"
+    loading="lazy"
+  />
+  <div>
+    <h2 class="modal-thankYou-title">thank you</h2>
+    <p class="modal-thankYou-text">
+      Thank you for your order! Our team is preparing your box with fresh,
+      delicious fruits and vegetables, and we'll deliver it straight to your
+      doorstep. We appreciate your business and look forward to providing you
+      with the best possible experience!
+    </p>
+  </div>
 </div>
