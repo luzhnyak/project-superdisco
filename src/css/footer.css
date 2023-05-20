@@ -1,9 +1,8 @@
 /* ======================= Footer ========================== */
 
-/* ======================= /Footer ========================== */
 .footer-section {
-    padding-top: 80px;
-    padding-bottom: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .footer-list {
@@ -11,64 +10,69 @@
 
 /* logo */
 .rooter-photo-and-logo {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
 }
+
 .footer-logo-link {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
+
 .footer-logo-svg {
-    margin-right: 8px;
-    fill: var(--red-color);
+  margin-right: 8px;
+  fill: var(--red-color);
 }
+
 .footer-text-logo-color {
-    text-transform: uppercase;
-    color: var(--red-color);
+  text-transform: uppercase;
+  color: var(--red-color);
 }
 
 /* anchor */
 .footer-anchor-menu {
-    margin-bottom: 44px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+  margin-bottom: 44px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 .footer-anchor-li {
-    /* color: var(--red-color); */
-    /* gap: 20px; */
+  /* color: var(--red-color); */
+  /* gap: 20px; */
 }
 .footer-anchor-link {
-    color: var(--red-color); 
+  color: var(--red-color);
 }
 
 /* socials */
 .footer-socials-addres {
 }
 .footer-social-list {
-    margin-bottom: 44px;
-    display: flex;
-justify-content: center;
-gap: 20px;
+  margin-bottom: 44px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 .footer-social-li {
 }
 .footer-social-link {
 }
 .footer-socials-svg {
-    fill: var(--red-color);
+  fill: var(--red-color);
 }
 
 /* tel, addres */
 .footer-page {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 14px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 14px;
 }
 .footer-page:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 .footer-link {
-    color: var(--red-color);
+  color: var(--red-color);
 }
+
+/* ======================= /Footer ========================== */
