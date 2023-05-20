@@ -1,6 +1,5 @@
 /* ======================= Footer ========================== */
 
-/* ======================= /Footer ========================== */
 .footer-section {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -20,6 +19,7 @@
 }
 
 /* logo */
+
 .footer-logo-anchor {
   margin-bottom: 44px;
 }
@@ -59,12 +59,14 @@
   .footer-logo-link {
     margin-bottom: 0;
   }
+
 }
 
 .footer-logo-svg {
   margin-right: 8px;
   fill: var(--red-color);
 }
+
 .footer-text-logo-color {
   font-weight: 700;
   text-transform: uppercase;
@@ -78,6 +80,7 @@
   justify-content: center;
   gap: 20px;
 }
+
 @media screen and (min-width: 1280px) {
   .footer-anchor-menu {
     margin-top: 0;
@@ -120,6 +123,7 @@
 }
 
 /* tel, addres */
+
 @media screen and (max-width: 767px) {
   .footer-page {
     display: flex;
@@ -140,3 +144,5 @@
 .footer-link {
   color: var(--red-color);
 }
+
+/* ======================= /Footer ========================== */

@@ -1,37 +1,88 @@
 <!-- Contacts section -->
-
-<section class="contacts-section section">
-  <div class="container">
+<section class="contacts-section section" id="contacts">
+  <div class="container contacts-container">
     <h2 class="contacts-tittle">Fresh Harvest Box has got you covered</h2>
-    <ul class="list-images">
-      <li class="contact-imeges">
-        <img src="./img/contacts/mobile_melon_335-476.jpg" alt="melon" />
+    <ul class="contacts-list list">
+      <li class="contacts-image-item">
+        <picture>
+          <source
+            srcset="
+              ./img/contacts/dtop_melon_792x502.jpg    1x,
+              ./img/contacts/dtop_melon_792x502@2x.jpg 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              ./img/contacts/tablet_melon_344x480.jpg    1x,
+              ./img/contacts/tablet_melon_344x480@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ./img/contacts/mobile_melon_335x476.jpg    1x,
+              ./img/contacts/mobile_melon_335x476@2x.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            src="../img/contacts/mobile_melon_335x476.jpg"
+            alt="melon"
+            loading="lazy"
+          />
+        </picture>
       </li>
-      <li class="contact-imega">
-        <img
-          src="../img/contacts/tablet_blueberry_344-480.jpg"
-          alt="blueberry"
-        />
+      <li class="contacts-image-item">
+        <picture>
+          <source
+            srcset="
+              ./img/contacts/dtop_blueberry_400x502.jpg    1x,
+              ./img/contacts/dtop_blueberry_400x502@2x.jpg 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              ./img/contacts/tablet_blueberry_344x480.jpg    1x,
+              ./img/contacts/tablet_blueberry_344x480@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <img
+            src="../img/contacts/tablet_blueberry_344x480.jpg"
+            alt="blueberry"
+            loading="lazy"
+          />
+        </picture>
       </li>
     </ul>
-    <p class="text-info">
-      Our boxes are packed with delicious, nutritious fruits and vegetables,
-      perfect for anyone looking to eat healthier or support local farmers.
-      Order your box today and start enjoying the best that nature has to offer!
-    </p>
-    <form>
-      <label>
-        <input
-          type="email"
-          name="email"
-          placeholder="Enter email..."
-          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-          required
-        />
-      </label>
-      <button class="js-open-modal" data-modal="thank-you-modal" type="button">
-        Send
-      </button>
-    </form>
+    <div class="contacts-info-block">
+      <p class="contacts-text-info">
+        Our boxes are packed with delicious, nutritious fruits and vegetables,
+        perfect for anyone looking to eat healthier or support local farmers.
+        Order your box today and start enjoying the best that nature has to
+        offer!
+      </p>
+      <form>
+        <div class="contacts-feedback">
+          <input
+            class="feedback-email"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter email..."
+            required
+          />
+          <button
+            class="js-open-modal contacts-button"
+            data-modal="thank-you-modal"
+            type="submit"
+          >
+            Send
+          </button>
+        </div>
+      </form>
+    </div>
   </div>
 </section>
