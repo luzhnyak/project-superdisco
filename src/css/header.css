@@ -3,8 +3,7 @@
     display: flex;
     align-items: center;
    justify-content: space-between;
-/* padding-left: 32px; */
-
+   max-height: 50px;
 padding-right: 32px;
 padding-top: 16px;
 padding-bottom: 16px;
@@ -36,6 +35,7 @@ color: var(--red-color);
     width: 28px;
     height: 28px;
     border: none;
+    margin-left: 200px;
 }
 .header-basket-icon{
     
@@ -59,7 +59,7 @@ color: var(--red-color);
    
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     .header-nav{
         display: none;
     }
