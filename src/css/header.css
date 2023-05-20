@@ -1,14 +1,15 @@
 /* ======================= Header ========================== */
 
-.header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  /* padding-left: 32px; */
+header
+.header-container{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   max-height: 50px;
+padding-right: 32px;
+padding-top: 16px;
+padding-bottom: 16px;
 
-  padding-right: 32px;
-  padding-top: 16px;
-  padding-bottom: 16px;
 }
 
 .header-logo-icon {
@@ -33,13 +34,14 @@
   color: var(--red-color);
 }
 
-.button-basket {
-  align-items: center;
-  fill: var(--red-color);
-  background-color: var(--white-color);
-  width: 28px;
-  height: 28px;
-  border: none;
+.button-basket{
+    align-items: center;
+    fill: var(--red-color);
+    background-color: var(--white-color);
+    width: 28px;
+    height: 28px;
+    border: none;
+    margin-left: 200px;
 }
 
 .header-basket-icon {
@@ -62,18 +64,19 @@
 }
 
 @media screen and (min-width: 375px) {
-}
-
-@media screen and (max-width: 768px) {
-  .header-nav {
-    display: none;
+   
   }
+  
+  @media screen and (max-width: 767px) {
+    .header-nav{
+        display: none;
+    }
+    .button-basket{
+        display: none;
+    }
+    
+ .header-container{
 
-  .button-basket {
-    display: none;
-  }
-
-  .header-container {
     padding-left: 20px;
     padding-right: 20px;
   }
