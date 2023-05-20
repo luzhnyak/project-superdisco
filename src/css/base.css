@@ -2,6 +2,7 @@
   --black-color: #000;
   --white-color: #fff;
   --red-color: #ae1332;
+  --modal-thank-you-color:#E03F5E;
   --green-color: #a4cb66;
   --yellow-color: #f5ce13;
 }
@@ -11,7 +12,7 @@ body {
   letter-spacing: 0.02em;
   font-size: 14px;
   line-height: 1.29;
-  /* color: white; */
+  color: white;
 }
 
 /* ======================= Utilites ========================== */
