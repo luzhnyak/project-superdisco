@@ -26,40 +26,40 @@ body {
 }
 
 .section {
-  padding-bottom: 80px;
 }
 
 .container {
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 80px;
 }
 
 @media screen and (min-width: 375px) {
   .container {
     width: 375px;
     margin: 0 auto;
-    padding-left: 32px;
-    padding-right: 32px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .section {
-    padding-bottom: 144px;
   }
 
   .container {
     width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 144px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .section {
-    padding-bottom: 150px;
   }
 
   .container {
     width: 1280px;
+    padding-bottom: 150px;
   }
 }
 
