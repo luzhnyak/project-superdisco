@@ -1,15 +1,11 @@
 /* ======================= How it works ========================== */
+
 .how-it-works-section {
 }
 .section {
 }
 .container {
-    min-width: 320px;
-    max-width: 428px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    
 }
 
 
@@ -17,7 +13,6 @@
   background-color: #ae1332;
 }
 .section-title-how-it-works {
-    font-family: 'DM Sans';
 font-style: normal;
 font-weight: 500;
 font-size: 28px;
@@ -32,7 +27,6 @@ order: 0;
 flex-grow: 0;
 }
 .section-subtitle-how-it-works {
-    font-family: 'DM Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -46,8 +40,6 @@ order: 1;
 flex-grow: 0;
 }
 .fruit-steps-list {
-}
-.list {
 }
 .steps-title {
 }
