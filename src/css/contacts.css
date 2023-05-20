@@ -1,11 +1,11 @@
 /* ======================= Contacts ========================== */
-.contacts-section {
-}
+
 .contacts-container {
   background-color: var(--red-color);
   padding-bottom: 80px;
   border: none;
 }
+
 .contacts-tittle {
   position: relative;
   margin-bottom: -42px;
@@ -75,6 +75,9 @@
   color: var(--white-color);
   border-color: var(--white-color);
 }
+.feedback-email:not(:placeholder-shown):required:invalid {
+  border-color: #ff0000;
+}
 .contacts-button {
   display: flex;
   flex-direction: row;
@@ -89,6 +92,10 @@
   border: currentColor;
   background: #9dc262;
   border-radius: 100px;
+
+  transition: background-color 500ms cubic-bezier(0.18, 0.89, 0.32, 1.28),
+  border-color 500ms cubic-bezier(0.18, 0.89, 0.32, 1.28),
+  box-shadow 500ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
 }
 .contacts-button:hover,
 .contacts-button:focus {
@@ -120,15 +127,13 @@
 @media only screen and (min-width: 1280px) {
   .contacts-tittle {
     margin-bottom: -36px;
-    .contacts-tittle {
-      width: 740px;
-      font-size: 64px;
-      line-height: 64px;
-    }
-    .contacts-list {
-      display: flex;
-      gap: 24px;
-    }
+    width: 740px;
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .contacts-list {
+    display: flex;
+    gap: 24px;
   }
 }
 /*======================= /Contacts ========================== */
