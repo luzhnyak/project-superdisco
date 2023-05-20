@@ -1,11 +1,11 @@
 /* ======================= Header ========================== */
 
 .header-container {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* padding-left: 32px; */
-
+  max-height: 50px;
   padding-right: 32px;
   padding-top: 16px;
   padding-bottom: 16px;
@@ -40,6 +40,7 @@
   width: 28px;
   height: 28px;
   border: none;
+  margin-left: 200px;
 }
 
 .header-basket-icon {
@@ -54,6 +55,7 @@
   background-color: var(--white-color);
   width: 24px;
   height: 24px;
+  padding: 0;
   border: none;
 }
 .mobile-menu-open-icon {
@@ -64,11 +66,10 @@
 @media screen and (min-width: 375px) {
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header-nav {
     display: none;
   }
-
   .button-basket {
     display: none;
   }
@@ -80,6 +81,7 @@
 
   .mobile-menu-logo {
     background-color: var(--white-color);
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -90,15 +92,15 @@
   }
 
   .mobile-menu {
-    position: fixed;
-    width: 100%;
-    height: 100%;
+    position: absolute;
+    width: 375px;
+    height: 100vh;
     z-index: 1000;
     top: 0;
     left: 0;
     background-color: var(--red-color);
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    /* box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); */
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -123,6 +125,7 @@
   .mobile-menu-close {
     width: 24px;
     height: 24px;
+    padding: 0;
   }
 
   .mobile-menu-close-icon {
@@ -155,8 +158,8 @@
   .mobile-navigation {
     text-align: center;
     padding-top: 174px;
-    padding-left: 149px;
-    padding-right: 149px;
+    /* padding-left: 149px;
+    padding-right: 149px; */
   }
 
   .navigation-item {

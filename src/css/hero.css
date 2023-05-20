@@ -15,14 +15,16 @@
 }
 
 .hero-header {
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 1;
-  letter-spacing: -0.04em;
-  text-transform: uppercase;
-  text-align: center;
-  color: var(--white-color);
-  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+    margin-top: 56px;
+
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--white-color);
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
 
 .hero-girl-img {
@@ -40,16 +42,9 @@
   padding: 20px 12px;
   width: 80px;
   height: 80px;
-
-  border: none;
-  border-radius: 50%;
-  background-color: var(--white-color);
-
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1;
-  letter-spacing: -0.04em;
-  text-transform: uppercase;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--white-color);
 }
 
 .hero-btn-text {
@@ -63,9 +58,7 @@
 }
 
 .hero-text-container {
-  display: block;
-  max-width: 279px;
-  margin: 0 auto 44px;
+    max-width: 279px;
 }
 
 .hero-text {
@@ -76,17 +69,30 @@
 }
 
 /* Hero bottom part */
-.hero-bottom-part {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 44px;
+
+.hero-container-left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 44px;
+    margin-bottom: 44px;
+}
+
+.hero-container-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 44px;
 }
 
 .hero-fruit-card {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    padding-top: 28px;
+    padding-bottom: 40px;
+
 
   max-width: 249px;
   min-height: 387px;
@@ -96,9 +102,7 @@
 }
 
 .hero-card-title {
-  margin-top: 28px;
-  margin-bottom: 61px;
-
+    margin-bottom: 61px;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -107,9 +111,7 @@
 }
 
 .fruit-card-descr {
-  max-width: 155px;
-  margin-bottom: 40px;
-
+    max-width: 155px;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.17;
@@ -123,6 +125,13 @@
   background-color: var(--yellow-color);
 }
 
+.hero-second-card > .hero-card-title {
+    margin-bottom: 19px;
+}
+.hero-second-card > .fruit-card-descr {
+    max-width: 163px;
+}
+
 .hero-hashtag-list {
   display: flex;
   justify-content: center;
@@ -131,15 +140,26 @@
 }
 
 .hero-list-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 125px;
-  height: 38px;
-  padding: 12px 32px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 125px;
+    height: 38px;
+    padding: 12px 32px; */
 
   border: 1px solid var(--white-color);
   border-radius: 1000px;
+}
+
+.hero-list-item:nth-child(odd) {
+    width: 125px;
+    height: 38px;
+}
+
+.hero-list-item:nth-child(even) {
+    width: 132px;
+    height: 38px;
 }
 
 .hero-hashtag-text {
@@ -149,6 +169,49 @@
   letter-spacing: -0.04em;
   text-transform: uppercase;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (min-width: 768px) {
+   .hero-header {
+        font-size: 50px;
+        line-height: 1.08;
+    }
+
+    .hero-btn {
+        width: 114px;
+        height: 114px;
+        padding: 30px 15px;
+    }
+
+    .hero-btn-text {
+        font-size: 28px;
+    }
+
+    .hero-bottom-part {
+        display: flex;
+        gap: 144px;
+    }
+
+    .hero-container-left {
+        justify-content: flex-end;
+    }
+
+    .hero-container-right {
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+    
+    .hero-list-item {
+        width: auto;
+        height: auto;
+        padding: 12px 32px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+   {
+    
+  }
 }
 
 /* ======================= /Hero ========================== */

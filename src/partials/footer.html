@@ -1,16 +1,26 @@
 <!-- Footer section -->
 
-<footer class="footer-section container">
-  <div class="footer-list">
-    <div class="rooter-photo-and-logo">
-      <img
-        srcset="
-          ./img/footer/footer-girl.png    1x,
-          ./img/footer/footer-girl@2x.png 2x
-        "
-        src="./img/footer/footer-girl.png"
-        alt="photo girl with bananas"
-      />
+<footer class="footer-section footer-list container">
+  <div class="footer-logo-anchor">
+    <div class="footer-photo-and-logo">
+      <picture>
+        <source
+          srcset="
+            ./img/footer/footer-girl.png    1x,
+            ./img/footer/footer-girl@2x.png 2x
+          "
+          media="(min-width:1280px)"
+        />
+        <source
+          srcset="
+            ./img/footer/footer-girl-mob.png    1x,
+            ./img/footer/footer-girl@2x-mob.png 2x
+          "
+          media="(max-width:767px)"
+        />
+        <img src="./img/footer/footer-girl.png" alt="photo girl with bananas" />
+      </picture>
+
       <a
         class="footer-logo-link link"
         href=""
@@ -34,59 +44,62 @@
         <a class="footer-anchor-link link" href="#">Contacts</a>
       </li>
     </ul>
-    <div class="footer-socials-addres">
-      <ul class="footer-social-list list">
-        <li class="footer-social-li">
-          <a
-            class="footer-social-link link"
-            href="https://www.facebook.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Facebook icon"
-          >
-            <svg class="footer-socials-svg" width="28" height="28">
-              <use href="./img/icons.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="footer-social-li">
-          <a
-            class="footer-social-link link"
-            href="https://www.instagram.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Instagram icon"
-          >
-            <svg class="footer-socials-svg" width="28" height="28">
-              <use href="./img/icons.svg#icon-instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="footer-social-li">
-          <a
-            class="footer-social-link link"
-            href="https://www.youtube.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Youtube icon"
-          >
-            <svg class="footer-socials-svg" width="28" height="28">
-              <use href="./img/icons.svg#icon-youtube"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-      <p class="footer-page">
-        <a class="footer-link link" href="tel:+380684439426"> +380 (68) 443-94-26 </a>
-      </p>
-      <p class="footer-page">
+  </div>
+  <div class="footer-socials-addres">
+    <ul class="footer-social-list list">
+      <li class="footer-social-li">
         <a
-          class="footer-link link"
-          href="https://www.google.com/maps/place/Varex+Imaging+Visitor+Entrance/@40.7331679,-111.960925,17z/data=!3m1!4b1!4m6!3m5!1s0x8752f35bbcfb1369:0x260ab4842496c9e4!8m2!3d40.7331639!4d-111.9583501!16s%2Fg%2F1tcxvqmt"
+          class="footer-social-link link"
+          href="https://www.facebook.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Facebook icon"
         >
-          1678 S. Pioneer Road<br />Salt Lake City UT<br />84104
+          <svg class="footer-socials-svg" width="28" height="28">
+            <use href="./img/icons.svg#icon-facebook"></use>
+          </svg>
         </a>
-      </p>
-    </div>
+      </li>
+      <li class="footer-social-li">
+        <a
+          class="footer-social-link link"
+          href="https://www.instagram.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram icon"
+        >
+          <svg class="footer-socials-svg" width="28" height="28">
+            <use href="./img/icons.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="footer-social-li">
+        <a
+          class="footer-social-link link"
+          href="https://www.youtube.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Youtube icon"
+        >
+          <svg class="footer-socials-svg" width="28" height="28">
+            <use href="./img/icons.svg#icon-youtube"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+    <p class="footer-page">
+      <a class="footer-link link" href="tel:+380684439426">
+        +380 (68) 443-94-26
+      </a>
+    </p>
+    <p class="footer-page">
+      <a
+        class="footer-link link"
+        href="https://www.google.com/maps/place/Varex+Imaging+Visitor+Entrance/@40.7331679,-111.960925,17z/data=!3m1!4b1!4m6!3m5!1s0x8752f35bbcfb1369:0x260ab4842496c9e4!8m2!3d40.7331639!4d-111.9583501!16s%2Fg%2F1tcxvqmt"
+        target="_blank"
+      >
+        1678 S. Pioneer Road<br />Salt Lake City UT<br />84104
+      </a>
+    </p>
   </div>
 </footer>
