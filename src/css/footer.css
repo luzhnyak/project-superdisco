@@ -59,6 +59,7 @@
   .footer-logo-link {
     margin-bottom: 0;
   }
+
 }
 
 .footer-logo-svg {
@@ -129,7 +130,6 @@
     text-align: center;
     margin-bottom: 14px;
   }
-
 }
 @media screen and (min-width: 768px) {
   .footer-page {

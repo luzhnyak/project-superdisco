@@ -26,6 +26,7 @@
 
   /*  Установаем ширину окна  */
   width: 100%;
+  max-width: 891px;
 
   /*  Центрируем и задаем z-index */
   position: fixed;
@@ -66,4 +67,5 @@
   background-color: transparent;
   border: none;
 }
+
 /*======================= /Modal ========================== */
