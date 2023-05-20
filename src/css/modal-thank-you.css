@@ -1,3 +1,60 @@
 /* ======================= Modal thank you ========================== */
 
+.modal-thank-you {
+  padding: 40px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  background: var(--modal-thank-you-color);
+}
+
+@media only screen and (min-width: 375px) {
+  .modal-thank-you {
+    width: 335px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .modal-thank-you {
+    padding: 68px 104px 80px 105px;
+    width: 600px;
+    gap: 28px;
+  }
+}
+
+.modal-close-svg {
+  stroke: #ffffff;
+}
+
+@media only screen and (min-width: 768px) {
+  .modal-close-btn {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+.modal-thankYou-title {
+  margin-bottom: 14px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+@media only screen and (min-width: 768px) {
+  .modal-thankYou-title {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}
+
+.modal-thankYou-text {
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+
 /*======================= /Modal thank you ========================== */
