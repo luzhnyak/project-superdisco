@@ -4,8 +4,10 @@
 .contacts-container {
   background-color: var(--red-color);
   padding-bottom: 80px;
+  border: none;
 }
 .contacts-tittle {
+  position: relative;
   margin-bottom: -42px;
 
   margin-left: auto;
@@ -58,7 +60,7 @@
   margin-left: auto;
   margin-right: auto;
   padding-left: 24px;
-  opacity: 0.3;
+  opacity: 0.5;
   border: 1px solid #ffffff;
   border-radius: 100px;
   background-color: var(--red-color);
@@ -67,7 +69,11 @@
   font-weight: 400;
   letter-spacing: -0.04em;
   color: #ffffff;
-  opacity: 0.5;
+}
+.feedback-email:focus {
+  outline: none;
+  color: var(--white-color);
+  border-color: var(--white-color);
 }
 .contacts-button {
   display: flex;
@@ -79,9 +85,15 @@
   width: 102px;
   height: 48px;
   left: 290px;
+  color: var(--white-color);
   border: currentColor;
-  background: #9dc162;
+  background: #9dc262;
   border-radius: 100px;
+}
+.contacts-button:hover,
+.contacts-button:focus {
+  background-color: #ffffff;
+  color: #9dc262;
 }
 @media only screen and (max-width: 767px) {
   .contacts-image-item:last-child {
@@ -96,6 +108,7 @@
 }
 @media only screen and (min-width: 768px) {
   .contacts-tittle {
+    margin-bottom: -30px;
     width: 648px;
     font-size: 54px;
     line-height: 54px;
@@ -106,13 +119,16 @@
 }
 @media only screen and (min-width: 1280px) {
   .contacts-tittle {
-    width: 740px;
-    font-size: 64px;
-    line-height: 64px;
-  }
-  .contacts-list {
-    display: flex;
-    gap: 24px;
+    margin-bottom: -36px;
+    .contacts-tittle {
+      width: 740px;
+      font-size: 64px;
+      line-height: 64px;
+    }
+    .contacts-list {
+      display: flex;
+      gap: 24px;
+    }
   }
 }
 /*======================= /Contacts ========================== */
