@@ -3,33 +3,58 @@
 <div class="modal modorder" data-modal="your-order-modal">
   <p class="modorder-title">YOUR ORDER</p>
   <button type="button" class="modal-close-btn js-modal-close">
-    <svg width="24" height="24" class="modal-close-svg">
-      <use href="./img/icons.svg#icon-close-btn""></use>
+    <svg width="24" height="24" class="modal-close-icon">
+      <use href="./img/icons.svg#icon-close-btn"></use>
     </svg>
   </button>
+
   <form class="modorder-form">
     <ul class="modorder-basket-list list">
-      <li class="modaorder-basket-item">
+      <li class="modorder-basket-item modorder-strawberry">
+                <label for="strawbasket" class="modorder-lable">
+          <div class="modorder-lable-text">
+            <h2>Strawberry Basket</h2>
+            <p>Plant</p>
+          </div>
+          <picture>
+            <source
+              srcset="
+              ./img/modorder_img/mod_straw_desktop1x.png  1x,
+              ./img/modorder_img/mod_straw_desktop2x.png  2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+              ./img/modorder_img/mod_straw_tab1x.png  1x,
+              ./img/modorder_img/mod_straw_tab2x.png  2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+              ./img/modorder_img/mod_straw_mob1x.png  1x,
+              ./img/modorder_img/mod_straw_mob2x.png  2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img
+              src="./img/modorder_img/mod_straw_desktop1x.png"
+              alt="Strawberry Basket"
+              height="196"
+              width="173"
+            />
+          </picture>
+        </label>
         <input
           type="checkbox"
           id="strawbasket"
           name="strawbasket"
           value="true"
-          class="modorder-check visually-hidden"
+          class="modorder-check"
         />
-        <label for="strawbasket" class="modorder-lable">
-          <h2>Strawberry Basket</h2>
-          <p>Plant</p>
-          <img
-            src="./img/mod_straw_desktop1x.png"
-            alt="Strawberry Basket"
-            srcset="./img/mod_straw_desktop2x.png"
-            height="196"
-            width="173"
-          />
-        </label>
       </li>
-      <li class="modorde-basket-item">
+      <li class="modorder-basket-item modorder-apple">
         <input
           type="checkbox"
           id="applebasket"
@@ -40,16 +65,38 @@
         <label for="applebasket" class="modorder-lable">
           <h2>Apple Basket</h2>
           <p>Plant</p>
-          <img
-            src="./img/modorder_img/mod_apple_desktop1x.png"
-            alt="Strawberry Basket"
-            srcset="./img/modorder_img/mod_apple_desktop2x.png 2x"
-            height="196"
-            width="229"
-          />
+          <picture>
+            <source
+              srcset="
+              ./img/modorder_img/mod_apple_desktop1x.png  1x,
+              ./img/modorder_img/mod_apple_desktop2x.png  2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+              ./img/modorder_img/mod_apple_tab1x.png  1x,
+              ./img/modorder_img/mod_apple_tab2x.png  2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+              ./img/modorder_img/mod_apple_mob1x.png  1x,
+              ./img/modorder_img/mod_apple_mob2x.png  2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img
+              src="./img/modorder_img/mod_apple_desktop1x.png"
+              alt="Strawberry Basket"
+              height="196"
+              width="173"
+            />
+          </picture>
         </label>
       </li>
-      <li class="modorder-basket-item">
+      <li class="modorder-basket-item modorder-fruits">
         <input
           type="checkbox"
           id="fruitsbasket"
@@ -60,16 +107,38 @@
         <label for="fruitsbasket" class="modorder-lable">
           <h2>Fruits Basket</h2>
           <p>Plant</p>
-          <img
-            src="./img/modorder_img/mod_fruits_desktop1x.png"
-            alt="Strawberry Basket"
-            srcset="./img/modorder_img/mod_fruits_desktop2x.png 2x"
-            height="196"
-            width="229"
-          />
+          <picture>
+            <source
+              srcset="
+              ./img/modorder_img/mod_fruits_desktop1x.png  1x,
+              ./img/modorder_img/mod_fruits_desktop2x.png  2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+              ./img/modorder_img/mod_fruits_tab1x.png  1x,
+              ./img/modorder_img/mod_fruits_tab2x.png  2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+              ./img/modorder_img/mod_fruits_mob1x.png  1x,
+              ./img/modorder_img/mod_fruits_mob2x.png  2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img
+              src="./img/modorder_img/mod_fruits_desktop1x.png"
+              alt="Strawberry Basket"
+              height="196"
+              width="173"
+            />
+          </picture>
         </label>
       </li>
-          </ul>
+    </ul>
     <div class="modorder-field">
       <div class="input-wrap">
         <input

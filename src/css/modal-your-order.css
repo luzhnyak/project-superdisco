@@ -11,7 +11,10 @@
     background-color: var(--white-color);
     border-radius: 20px;
     padding: 20px;
+    justify-content: space-between;
 }
+
+
 .modorder-title {
     font-weight: 500;
 font-size: 28px;
@@ -21,29 +24,56 @@ align-items: center;
 letter-spacing: -0.04em;
 text-transform: uppercase;
 color: var(--red-color);
-text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);margin-bottom: 57px;
 }
 .modal-close-btn {
+    
     
 }
 .js-modal-close {
 }
-.modal-close-svg {
-   
+.modal-close-icon {
+    stroke: var(--red-color); 
+    width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0; 
 }
 .modorder-form {
+    width: 100%;
 }
 .modorder-basket-list {
+    row-gap: 12px;
 }
 .list {
 }
-.modaorder-basket-item {
+
+.modorder-basket-item {
+    border-radius: 20px; 
+}
+.modorder-strawberry{
+    background: var(--pink-color);  
+}
+.modorder-apple{
+    background: var(--modal-yellow);  
+}
+.modorder-fruits{
+    background: var(--modal-green);  
 }
 .modorder-check {
 }
 .visually-hidden {
 }
 .modorder-lable {
+    display: flex;
+}
+.modorder-lable-text{
+
 }
 .modorde-basket-item {
 }
@@ -59,3 +89,9 @@ text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
 .modorder-btn {
 }
+@media only screen and (min-width: 375px) {
+    .modorder {
+      width: 335px;
+    }
+    
+  }
