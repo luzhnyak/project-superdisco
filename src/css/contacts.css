@@ -1,3 +1,151 @@
 /* ======================= Contacts ========================== */
 
+.contacts-section {
+}
+
+.contacts-container {
+  background-color: var(--red-color);
+  padding-bottom: 80px;
+  border: none;
+}
+
+.contacts-tittle {
+  position: relative;
+  margin-bottom: -42px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 32px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+
+.contacts-list {
+  display: flex;
+  gap: 16px;
+}
+
+.contacts-image-item {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.contacts-info-block {
+  position: relative;
+  width: 492px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+}
+
+.contacts-text-info {
+  width: 492px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.04em;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+
+.contacts-feedback {
+  display: flex;
+  align-items: center;
+}
+
+.feedback-email {
+  width: 292px;
+  height: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  opacity: 0.5;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+  background-color: var(--red-color);
+}
+
+.feedback-email::placeholder {
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+}
+
+.feedback-email:focus {
+  outline: none;
+  color: var(--white-color);
+  border-color: var(--white-color);
+  opacity: 0.5;
+}
+
+.contacts-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 35px;
+  gap: 15px;
+  position: absolute;
+  width: 102px;
+  height: 48px;
+  left: 290px;
+  color: var(--white-color);
+  border: currentColor;
+  background: #9dc262;
+  border-radius: 100px;
+}
+
+.contacts-button:hover,
+.contacts-button:focus {
+  background-color: #ffffff;
+  color: #9dc262;
+}
+
+@media only screen and (max-width: 767px) {
+  .contacts-image-item:last-child {
+    display: none;
+  }
+  .contacts-text-info {
+    display: none;
+  }
+  .contacts-feedback {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contacts-tittle {
+    margin-bottom: -30px;
+    width: 648px;
+    font-size: 54px;
+    line-height: 54px;
+  }
+  
+  .contacts-list {
+    margin-bottom: 80px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .contacts-tittle {
+    margin-bottom: -36px;
+    .contacts-tittle {
+      width: 740px;
+      font-size: 64px;
+      line-height: 64px;
+    }
+    
+    .contacts-list {
+      display: flex;
+      gap: 24px;
+    }
+  }
+}
+
 /*======================= /Contacts ========================== */
