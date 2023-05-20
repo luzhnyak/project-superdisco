@@ -1,6 +1,5 @@
 /* ======================= Footer ========================== */
 
-/* ======================= /Footer ========================== */
 .footer-section {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -65,6 +64,7 @@
   margin-right: 8px;
   fill: var(--red-color);
 }
+
 .footer-text-logo-color {
   font-weight: 700;
   text-transform: uppercase;
@@ -78,6 +78,7 @@
   justify-content: center;
   gap: 20px;
 }
+
 @media screen and (min-width: 1280px) {
   .footer-anchor-menu {
     margin-top: 0;
@@ -127,6 +128,7 @@
     text-align: center;
     margin-bottom: 14px;
   }
+
 }
 @media screen and (min-width: 768px) {
   .footer-page {
