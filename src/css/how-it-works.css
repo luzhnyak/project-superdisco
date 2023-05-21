@@ -88,7 +88,7 @@ width: 335px;
   justify-content: center;
   align-items: center;
   gap: 14px;
-  width: 305px;
+  width: 100%;
   height: 112px;
   background-color: var(--white-color);
   border-radius: 20px;
