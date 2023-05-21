@@ -25,11 +25,10 @@
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
 
-/*  готово */
 .modal-order-close-svg {
   stroke: var(--red-color);
 }
-/* готово */
+
 .modal-order-list {
   display: flex;
   flex-wrap: wrap;
@@ -43,8 +42,7 @@
   width: 100%;
   display: flex;
   flex-wrap: nowrap;
-  padding-left: 20px;
-  padding-right: 14px;
+  padding: 16px 14px 8px 20px;
   background: #EDD251;
   border-radius: 20px;
 }
@@ -58,9 +56,9 @@
 }
 .modal-order-list-text{
   display: block;
+  margin-right: auto;
 }
 .modal-order-list-text h3{
-  margin-top: 20px;
   text-align: left;
   font-weight: 700;
   font-size: 18px;
@@ -74,39 +72,31 @@
   letter-spacing: -0.02em;
 }
 
-
-.modorder-check:checked + .modorder-lable::after {
-  background-color:white;
-  background-image: url(../img/modorder_img/pickcheck.svg); 
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .modal-order-lable-checkbox {
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
 .modal-order-lable-checkbox::after{
   content: '';
+  cursor: pointer;
   width: 16px;
   height: 16px;
   border: 1.5px solid #FFFFFF;
   border-radius: 4px;
   display: block;
 }
-.modorder-lable-text{
-    display: flex;
-    flex-direction: column;
-    
-    align-items: flex-start;
-    
 
+/* *******в процесі**************** */
+.modal-order-check:checked + .modal-order-lable-checkbox::after {
+  background-color: var(--white-color);
+  background-image: url(../img/modal-order/pick.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-position: center;
 }
-.modorde-basket-item {
-}
-.modorder-basket-item {
-}
+
 .modorder-field {
     display: flex;
 flex-direction: column;
