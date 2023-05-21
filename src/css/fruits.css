@@ -40,6 +40,7 @@
     text-align: center;
   }
 }
+
 /* tablet + desktop */
 @media only screen and (min-width: 768px) {
   .fruits-text {
@@ -57,12 +58,14 @@
     gap: 14px;
   }
 }
+
 /* tablet */
 @media only screen and (min-width: 768px) {
   .fruits-list {
     gap: 16px;
   }
 }
+
 /* desktop */
 @media only screen and (min-width: 1280px) {
   .fruits-list {
@@ -77,6 +80,7 @@
     width: 335px;
   }
 }
+
 /* tablet */
 @media only screen and (min-width: 768px) {
   .fruits-item {
@@ -93,42 +97,53 @@
 .color-wrap-strawberry {
   background-color: #f8766b;
 }
+
 .color-wrap-banana {
   background-color: #edd251;
 }
+
 .color-wrap-watermelon {
   background-color: #9dc262;
 }
+
 .color-wrap-lime {
   background-color: #bfd663;
 }
+
 .color-wrap-apple {
   background-color: #e93f29;
 }
+
 .color-wrap-peach {
   background-color: #db4f4b;
 }
+
 .color-wrap-plum {
   background-color: #9b5366;
 }
+
 /* mobile */
 @media only screen and (max-width: 767px) {
   .color-wrap-plum {
     display: none;
   }
 }
+
 .color-wrap-orange {
   background-color: #f47f4c;
 }
+
 /* mobile */
 @media only screen and (max-width: 767px) {
   .color-wrap-orange {
     display: none;
   }
 }
+
 .color-wrap-kiwi {
   background-color: #98b37e;
 }
+
 /* mobile */
 @media only screen and (max-width: 1279px) {
   .color-wrap-kiwi {
@@ -149,6 +164,7 @@
     line-height: 1.17;
   }
 }
+
 /* tablet + desktop */
 @media only screen and (min-width: 768px) {
   .fruits-item-title {
@@ -168,6 +184,7 @@
     line-height: 1.29;
   }
 }
+
 /* tablet + desktop */
 @media only screen and (min-width: 768px) {
   .fruits-item-text {
@@ -205,31 +222,60 @@
   }
 }
 
-.order-fruits-modal {
-  display: block;
-  margin-top: 44px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 26px 8px;
+/* mobile */
+@media only screen and (min-width: 375px) {
+  .order-fruits-modal {
+    display: block;
+    margin-top: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
 
-  border-radius: 50%;
-  border: none;
-  background-color: var(--green-color);
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: var(--green-color);
+
+    color: var(--white-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
-.order-fruits-modal-text {
-  display: inline-block;
-  font-weight: 500;
 
-  line-height: 1.29;
-  letter-spacing: -0.04em;
-  text-transform: uppercase;
+/* tablet + desktop */
+@media only screen and (min-width: 768px) {
+  .order-fruits-modal {
+    width: 114px;
+    height: 114px;
 
-  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
-  transform: rotate(-14deg);
+    font-size: 18px;
+  }
+}
 
-  color: var(--white-color);
+.order-fruits-modal:hover,
+.order-fruits-modal:focus {
+  background-color: var(--white-color);
+  color: var(--green-color);
 }
 
 .order-arrow {
+  margin-right: 4px;
+  fill: currentColor;
+}
+
+.order-arrow:hover,
+.order-arrow:focus {
+  fill: var(--green-color);
+}
+
+.fruits-modal-wrap {
+  transform: rotate(-14deg);
 }
 /*======================= /Fruits ========================== */
