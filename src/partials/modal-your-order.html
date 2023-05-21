@@ -11,7 +11,8 @@
   <form class="modorder-form">
     <ul class="modorder-basket-list list">
       <li class="modorder-basket-item modorder-strawberry">
-                <label for="strawbasket" class="modorder-lable">
+        <label for="strawbasket" class="modorder-lable">
+        
           <div class="modorder-lable-text">
             <h2>Strawberry Basket</h2>
             <p>Plant</p>
@@ -45,26 +46,23 @@
               width="173"
             />
           </picture>
+          
         </label>
         <input
-          type="checkbox"
-          id="strawbasket"
-          name="strawbasket"
-          value="true"
-          class="modorder-check"
-        />
+        type="checkbox"
+        id="strawbasket"
+        name="basket"
+        value="strawbasket"
+        class="modorder-check visually-hidden"
+      />
       </li>
       <li class="modorder-basket-item modorder-apple">
-        <input
-          type="checkbox"
-          id="applebasket"
-          name="applebasket"
-          value="true"
-          class="modorder-check visually-hidden"
-        />
+        
         <label for="applebasket" class="modorder-lable">
-          <h2>Apple Basket</h2>
-          <p>Plant</p>
+          <div class="modorder-lable-text">
+            <h2>Apple Basket</h2>
+            <p>Plant</p>
+          </div>
           <picture>
             <source
               srcset="
@@ -94,19 +92,23 @@
               width="173"
             />
           </picture>
+          <input
+          type="checkbox"
+          id="applebasket"
+          name="basket"
+          value="applebasket"
+          class="modorder-check visually-hidden"
+          checked
+        />
         </label>
       </li>
       <li class="modorder-basket-item modorder-fruits">
-        <input
-          type="checkbox"
-          id="fruitsbasket"
-          name="fruitsbasket"
-          value="true"
-          class="modorder-check visually-hidden"
-        />
+        
         <label for="fruitsbasket" class="modorder-lable">
-          <h2>Fruits Basket</h2>
-          <p>Plant</p>
+          <div class="modorder-lable-text">
+            <h2>Fruits Basket</h2>
+            <p>Plant</p>
+          </div>
           <picture>
             <source
               srcset="
@@ -136,6 +138,13 @@
               width="173"
             />
           </picture>
+          <input
+          type="checkbox"
+          id="fruitsbasket"
+          name="basket"
+          value="fruitsbasket"
+          class="modorder-check visually-hidden"
+        />
         </label>
       </li>
     </ul>
@@ -187,5 +196,6 @@
     srcset="./img/modorder_img/mod_girl_desktop2x.png 2x"
     height="458"
     width="471"
+    class="modorder-girl"
   />
 </div>

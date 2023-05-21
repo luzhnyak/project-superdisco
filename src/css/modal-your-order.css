@@ -2,9 +2,10 @@
 
 /*======================= /Modal you order ========================== */
 .modal {
+    width: 335px;
 }
 .modorder {
-    width: 335px;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -48,13 +49,21 @@ flex-grow: 0;
     width: 100%;
 }
 .modorder-basket-list {
+    display: flex;
+    flex-direction: column;
     row-gap: 12px;
+    margin-bottom: 23px;
 }
 .list {
 }
 
 .modorder-basket-item {
     border-radius: 20px; 
+    flex-direction: row;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 14px;
+    padding-right: 14px;
 }
 .modorder-strawberry{
     background: var(--pink-color);  
@@ -65,14 +74,33 @@ flex-grow: 0;
 .modorder-fruits{
     background: var(--modal-green);  
 }
-.modorder-check {
+.modorder-check:checked + .modorder-lable::after {
+    background-color:white;
+    background-image: url(../img/modorder_img/pickcheck.svg); 
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .visually-hidden {
 }
 .modorder-lable {
     display: flex;
+    padding-left: 20px;
+padding-bottom: 8px;
+}
+.modorder-lable::after{
+    content: '';
+    width: 16px;
+    height: 16px;
+    border: 1.5px solid #FFFFFF;
+border-radius: 4px;
+display: block;
 }
 .modorder-lable-text{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-start;
+    
 
 }
 .modorde-basket-item {
@@ -80,18 +108,58 @@ flex-grow: 0;
 .modorder-basket-item {
 }
 .modorder-field {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 14px;
+margin-bottom: 20px;
 }
 .input-wrap {
 }
 .modorder-input {
+    box-sizing: border-box;
+width: 295px;
+height: 46px;
+left: 0px;
+top: 0px;
+opacity: 0.3;
+border: 1px solid #000000;
+border-radius: 100px;
+padding-top: 14px;
+padding-bottom: 14px;
+padding-left: 24px;
 }
 .modorder-textarea {
+    width: 295px;
+height: 132px;
+left: 0px;
+top: 180px;
+
+opacity: 0.3;
+border: 1px solid #000000;
+border-radius: 20px;
+padding-top: 14px;
+padding-left: 24px;
 }
 .modorder-btn {
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 24px;
+width: 92px;
+height: 42px;
+left: 20px;
+top: 841px;
+border: none;
+background-color: var(--modal-submit);
+border-radius: 100px;
 }
 @media only screen and (min-width: 375px) {
     .modorder {
       width: 335px;
     }
-    
+    .modorder-girl{
+        display: none;
+    }
   }
