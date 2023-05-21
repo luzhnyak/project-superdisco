@@ -1,10 +1,22 @@
 /* ======================= Hero ========================== */
 /* Hero upper part */
 .hero-container {
+  position: relative;
+
   padding-bottom: 80px;
 
-  
-  background-color: var(--red-color);
+  background-image: url(../img/images-hero/hero-flying-fruits/flying-fruits-mobile@1x.png);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+}
+
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .hero-container {
+    background-image: url(../img/images-hero/hero-flying-fruits/flying-fruits-mobile@2x.png);
+  }
 }
 
 .hero-upper-part {
@@ -20,7 +32,7 @@
 
 .hero-header {
   position: absolute;
-  top: 9%;
+  top: 10%;
 
   max-width: 355px;
 
@@ -35,13 +47,14 @@
 }
 
 .hero-girl-container {
-  padding: 12px;
-
+  padding-left: 11px;
+  padding-right: 11px;
+  
+  
   /* border: 1px solid transparent;
   border-radius: 500px;
 
   border-image: linear-gradient(to top, var(--white-color), transparent); */
-  
 }
 
 
@@ -187,6 +200,23 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .hero-container {
+    background-image: url(../img/images-hero/hero-flying-fruits/flying-fruits-tablet@1x.png);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .hero-container {
+      background-image: url(../img/images-hero/hero-flying-fruits/flying-fruits-tablet@2x.png);
+    }
+  }
+
+  .hero-upper-part {
+    padding-top: 122px;
+  }
+
   .hero-header {
     max-width: 704px;
 
@@ -233,11 +263,51 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .hero-container {
+      background-image: url(../img/images-hero/hero-flying-fruits/flying-fruits-desc@1x.png);
+    }
+  
+  @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+      .hero-container {
+        background-image: url(../img/images-hero/hero-flying-fruits/flying-fruits-desc@2x.png);
+      }
+    }
+
+  .hero-upper-part {
+    padding-top: 122px;
+  }
+    
   .hero-header {
     max-width: 898px;
 
     font-size: 64px;
     line-height: 1;
+  }
+
+  .hero-container-left {
+    position: absolute;
+    bottom: 0;
+    margin-left: 30px;
+
+    flex-direction: column;
+  }
+  
+  .hero-text {
+    max-width: 222px;
+  }
+
+  .hero-container-right {
+    position: absolute;
+    bottom: 15%;
+    right: 0;
+    margin-right: 30px;
+  }
+
+  .hero-hashtag-list {
+    max-width: 270px;
   }
 }
 
