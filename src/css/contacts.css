@@ -98,12 +98,12 @@
   background-color: #ffffff;
   color: #9dc262;
 }
-.feedback-email:invalid + .contacts-button {
+/* .feedback-email:invalid + .contacts-button {
   pointer-events: none;
 }
 .feedback-email:valid + .contacts-button {
   pointer-events: inherit;
-}
+} */
 @media only screen and (max-width: 767px) {
   .contacts-image-item:last-child {
     display: none;
