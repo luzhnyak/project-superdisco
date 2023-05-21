@@ -1,50 +1,35 @@
 /* ======================= Modal your order ========================== */
 
 /*======================= /Modal you order ========================== */
-.modal {
+
+.modal-order {
+  padding: 20px;
+  overflow: auto
+}
+@media only screen and (min-width: 375px) {
+  .modal-order{
     width: 335px;
-}
-.modorder {
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: var(--white-color);
-    border-radius: 20px;
-    padding: 20px;
-    justify-content: space-between;
+  }
 }
 
-
-.modorder-title {
-    font-weight: 500;
-font-size: 28px;
-line-height: 1;
-display: flex;
-align-items: center;
-letter-spacing: -0.04em;
-text-transform: uppercase;
-color: var(--red-color);
-text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);margin-bottom: 57px;
+/* готово не чіпати */
+.modal-order-title {
+  margin-bottom: 40px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: var(--red-color);
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
-.modal-close-btn {
-    
-    
-}
-.js-modal-close {
-}
-.modal-close-icon {
-    stroke: var(--red-color); 
-    width: 24px;
-height: 24px;
 
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0; 
+/* не чіпати */
+.modal-order-close-svg {
+  stroke: var(--red-color);
 }
+
 .modorder-form {
     width: 100%;
 }
