@@ -1,5 +1,34 @@
 /* ======================= Footer ========================== */
+/* footer container */
+.footer-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
 
+@media screen and (min-width: 375px) {
+  .footer-container {
+    width: 375px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer-container {
+    width: 1280px;
+  }
+}
+
+
+/* section */
 .footer-section {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -19,7 +48,6 @@
 }
 
 /* logo */
-
 .footer-logo-anchor {
   margin-bottom: 44px;
 }
@@ -123,7 +151,6 @@
 }
 
 /* tel, addres */
-
 @media screen and (max-width: 767px) {
   .footer-page {
     display: flex;
@@ -144,5 +171,3 @@
 .footer-link {
   color: var(--red-color);
 }
-
-/* ======================= /Footer ========================== */
