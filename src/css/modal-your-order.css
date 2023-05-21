@@ -25,60 +25,75 @@
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
 
-/* не чіпати */
+/*  готово */
 .modal-order-close-svg {
   stroke: var(--red-color);
 }
-
-.modorder-form {
-    width: 100%;
-}
-.modorder-basket-list {
-    display: flex;
-    flex-direction: column;
-    row-gap: 12px;
-    margin-bottom: 23px;
-}
-.list {
+/* готово */
+.modal-order-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 40px;
+  border-radius: 20px;
 }
 
-.modorder-basket-item {
-    border-radius: 20px; 
-    flex-direction: row;
-    display: flex;
-    align-items: flex-start;
-    padding-top: 14px;
-    padding-right: 14px;
+.modal-order-list-item {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  padding-left: 20px;
+  padding-right: 14px;
+  background: #EDD251;
+  border-radius: 20px;
 }
-.modorder-strawberry{
-    background: var(--pink-color);  
+
+.modal-order-list-item:first-child {
+  background-color: #F8766B;
 }
-.modorder-apple{
-    background: var(--modal-yellow);  
+
+.modal-order-list-item:last-child {
+  background-color: #9DC262;
 }
-.modorder-fruits{
-    background: var(--modal-green);  
+.modal-order-list-text{
+  display: block;
 }
+.modal-order-list-text h3{
+  margin-top: 20px;
+  text-align: left;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.04em;
+}
+
+.modal-order-list-text p{  
+  text-align: left;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+
 .modorder-check:checked + .modorder-lable::after {
-    background-color:white;
-    background-image: url(../img/modorder_img/pickcheck.svg); 
+  background-color:white;
+  background-image: url(../img/modorder_img/pickcheck.svg); 
   background-repeat: no-repeat;
   background-position: center;
 }
-.visually-hidden {
+
+.modal-order-lable-checkbox {
+  display: flex;
+  justify-content: space-between;
 }
-.modorder-lable {
-    display: flex;
-    padding-left: 20px;
-padding-bottom: 8px;
-}
-.modorder-lable::after{
-    content: '';
-    width: 16px;
-    height: 16px;
-    border: 1.5px solid #FFFFFF;
-border-radius: 4px;
-display: block;
+
+.modal-order-lable-checkbox::after{
+  content: '';
+  width: 16px;
+  height: 16px;
+  border: 1.5px solid #FFFFFF;
+  border-radius: 4px;
+  display: block;
 }
 .modorder-lable-text{
     display: flex;
