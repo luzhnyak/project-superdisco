@@ -1,5 +1,9 @@
 /* ======================= Header ========================== */
 
+.header-section {
+  background-color: var(--white-color);
+}
+
 .header-container {
   position: relative;
   display: flex;
