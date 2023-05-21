@@ -24,6 +24,9 @@
   opacity: 0;
   visibility: hidden;
 
+  overflow: auto;
+  max-height: 95vh;
+
   /*  Установаем ширину окна  */
   width: 100%;
   max-width: 891px;
