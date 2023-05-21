@@ -26,7 +26,8 @@
 .modal-close-svg {
   stroke: #ffffff;
 }
-/* tablet+desktop */
+
+/* tablet+desktop .modal-close-btn */
 @media only screen and (min-width: 768px) {
   .modal-close-btn {
     width: 28px;
