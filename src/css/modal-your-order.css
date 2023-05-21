@@ -78,36 +78,25 @@
   justify-content: space-between;
 }
 
-/* *******в процесі**************** */
-.modal-order-check:checked + .modal-order-lable-checkbox::after {
-  background-color:white;
-  background-image: url(../img/modorder_img/pickcheck.svg); 
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-
-
 .modal-order-lable-checkbox::after{
   content: '';
+  cursor: pointer;
   width: 16px;
   height: 16px;
   border: 1.5px solid #FFFFFF;
   border-radius: 4px;
   display: block;
 }
-.modorder-lable-text{
-    display: flex;
-    flex-direction: column;
-    
-    align-items: flex-start;
-    
 
+/* *******в процесі**************** */
+.modal-order-check:checked + .modal-order-lable-checkbox::after {
+  background-color: var(--white-color);
+  background-image: url(../img/modal-order/pick.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-position: center;
 }
-.modorde-basket-item {
-}
-.modorder-basket-item {
-}
+
 .modorder-field {
     display: flex;
 flex-direction: column;
