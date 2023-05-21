@@ -24,7 +24,7 @@
 }
 
 .modal-close-svg {
-  stroke: #ffffff;
+  stroke: var(--white-color);
 }
 
 /* tablet+desktop .modal-close-btn */
