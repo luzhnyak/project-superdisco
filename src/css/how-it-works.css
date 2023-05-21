@@ -3,6 +3,7 @@
 .fruit-steps-container {
   background-color: var(--red-color);
 }
+
 /* MOBILE */
 @media only screen and (min-width: 375px) {
 .section-title-how-it-works {
@@ -21,8 +22,7 @@ flex-grow: 0;
 }
 }
 
-/* TABLET and DESKTOP */
-
+/* TABLET */
 @media only screen and (min-width: 768px) {
   .section-title-how-it-works {
     font-weight: 500;
@@ -31,9 +31,21 @@ flex-grow: 0;
     }
 }
 
+/* DESKTOP */
+@media only screen and (min-width: 1280px) {
+  .section-title-how-it-works {
+    width: 624px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: 14px;
+    margin-left: auto;
+    }
+}
 
+/* MOBILE */
+@media screen and (min-width: 375px) {
 .section-subtitle-how-it-works {
-font-style: normal;
+width: 335px;
 font-weight: 400;
 font-size: 14px;
 line-height: 18px;
@@ -45,9 +57,20 @@ text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 order: 1;
 flex-grow: 0;
 }
+}
+
+/* TABLET and DESKTOP */
+@media screen and (min-width: 768px) {
+  .section-subtitle-how-it-works {
+    width: 509px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: 44px;
+    margin-left: auto;
+  }
+}
 
 /* MOBILE */
-
 @media only screen and (min-width: 375px) {
 .fruits-steps-list {
 display: flex;
@@ -64,11 +87,6 @@ margin-top: 44px;
     justify-content: center;
 }
 }
-/* DESKTOP */
-@media screen and (min-width: 1280px) {
-
-}
-
 
 /* MOBILE */
 @media only screen and (min-width: 375px) {
@@ -82,22 +100,27 @@ height: 112px;
 background-color: var(--white-color);
 border-radius: 20px;
 padding: 20px;
-/* margin-top: 44px;
-margin-bottom: 20px; */
 }
 }
 
-/* TABLET and DESKTOP */
+/* TABLET */
 @media only screen and (min-width: 768px) {
   .fruits-steps {
     width: 389px;
     height: 128px;
     padding: 24px;
-    /* margin-top: 44px;
-    margin-bottom: 20px; */
     }
 }
 
+/* DESKTOP */
+@media only screen and (min-width: 1280px) {
+  .fruits-steps-list {
+display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
+gap: 24px;
+}
+}
 
 .steps-title {
 display: block;
@@ -165,6 +188,5 @@ object-fit: cover;
     margin: auto;
     }
 }
-
 
 /*======================= /How it works ========================== */
