@@ -3,7 +3,6 @@
 .footer-container {
   padding-left: 20px;
   padding-right: 20px;
-  
 }
 
 @media screen and (min-width: 375px) {
@@ -26,7 +25,6 @@
     width: 1280px;
   }
 }
-
 
 /* section */
 .footer-section {
@@ -87,7 +85,6 @@
   .footer-logo-link {
     margin-bottom: 0;
   }
-
 }
 
 .footer-logo-svg {
@@ -129,8 +126,11 @@
   justify-content: center;
   gap: 20px;
 }
-.footer-social-li {
-  display: flex;
+
+.footer-social-link {
+  display: inline-block;
+  width: 46px;
+  height: 46px;
   padding: 8px;
   border: 1px solid var(--red-color);
   border-radius: 10px;
@@ -138,13 +138,9 @@
   transition-duration: 500ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-social-li:hover,
-.footer-social-li:focus {
+.footer-social-link:hover,
+.footer-social-link:focus {
   background-color: rgb(250, 213, 221);
-}
-.footer-social-link {
-  width: 28px;
-  height: 28px;
 }
 .footer-socials-svg {
   fill: var(--red-color);
