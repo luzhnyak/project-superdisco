@@ -1,9 +1,5 @@
 /* ======================= Fruits ========================== */
 
-.fruits-container {
-  background-color: var(--red-color);
-}
-
 .fruits-tittle {
   margin-bottom: 14px;
 
@@ -215,6 +211,7 @@
   text-transform: uppercase;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 
+  transform: rotate(-14deg);
   transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -246,7 +243,4 @@
   fill: var(--green-color);
 }
 
-.fruits-modal-wrap {
-  transform: rotate(-14deg);
-}
 /*======================= /Fruits ========================== */
