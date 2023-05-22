@@ -179,12 +179,21 @@
     </div>
     <button type="submit" class="modorder-btn">Submit</button>
   </form>
-  <img
-    src="./img/modorder_img/mod_girl_desktop1x.png"
-    alt="Strawberry Basket"
-    srcset="./img/modorder_img/mod_girl_desktop2x.png 2x"
-    height="458"
-    width="471"
-    class="modorder-girl"
-  />
+  <picture>
+    <source
+      srcset="
+        ./img/modal-order/girl_desk@1x.png 1x,
+        ./img/modal-order/girl_desk@2x.png 2x
+      "
+      media="(min-width: 1280px)"
+    />
+    <source
+      srcset="
+        ./img/modal-order/girl_tab@1x.png 1x,
+        ./img/modal-order/girl_tab@2x.png 2x
+      "
+      media="(min-width: 768px)"
+    />
+  
+  </picture>
 </div>

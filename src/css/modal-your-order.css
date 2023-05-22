@@ -218,3 +218,8 @@ border-radius: 100px;
         display: none;
     }
   }
+  @media only screen and (min-width: 768px) {
+    .modorder-girl{
+      display: flex;
+  }
+  }
