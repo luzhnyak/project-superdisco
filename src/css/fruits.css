@@ -1,9 +1,5 @@
 /* ======================= Fruits ========================== */
 
-.fruits-container {
-  background-color: var(--red-color);
-}
-
 .fruits-tittle {
   margin-bottom: 14px;
 
@@ -42,21 +38,6 @@
   }
 }
 
-/* mobile */
-/* @media only screen and (min-width: 375px) {
-  .fruits-list {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 14px;
-  }
-} */
-
-/* .fruits-list {
-  gap: 14px;
-} */
-
 /* tablet */
 @media only screen and (min-width: 768px) {
   .fruits-list {
@@ -76,9 +57,12 @@
 }
 
 .fruits-item {
+  padding-top: 64px;
+  padding-left: 24px;
+  padding-bottom: 24px;
+  padding-right: 24px;
   border-radius: 20px;
   margin-bottom: 14px;
-  /* width: 335px; */
 }
 
 /* tablet */
@@ -153,8 +137,6 @@
 }
 
 .fruits-item-title {
-  padding-top: 64px;
-  margin-left: 24px;
   margin-bottom: 8px;
 
   font-weight: 700;
@@ -174,8 +156,6 @@
 }
 
 .fruits-item-text {
-  margin-left: 24px;
-
   letter-spacing: -0.02em;
   line-height: 1.29;
 }
@@ -194,8 +174,6 @@
 
 .fruits-price-text {
   display: inline-block;
-  margin-left: 24px;
-  margin-bottom: 24px;
   padding: 12px 24px;
 
   font-weight: 500;
@@ -233,6 +211,7 @@
   text-transform: uppercase;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 
+  transform: rotate(-14deg);
   transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -264,7 +243,4 @@
   fill: var(--green-color);
 }
 
-.fruits-modal-wrap {
-  transform: rotate(-14deg);
-}
 /*======================= /Fruits ========================== */
