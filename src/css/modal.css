@@ -24,9 +24,6 @@
   opacity: 0;
   visibility: hidden;
 
-  overflow: auto;
-  max-height: 95vh;
-
   /*  Установаем ширину окна  */
   width: 100%;
   max-width: 891px;
@@ -45,6 +42,13 @@
   border-radius: 20px;
   background-color: #fff;
   transition: 0.3s all;
+}
+
+@media only screen and (max-height: 890px) {
+  .modal {
+    overflow: auto;
+    max-height: 95vh;
+  }
 }
 
 /* Стили для активных классов подложки и окна */
