@@ -85,7 +85,7 @@
   width: 100%;
   display: flex;
   flex-wrap: nowrap;
-  background: #edd251;
+  background: var(--modal-yellow);
   border-radius: 20px;
   position: relative;
 }
@@ -103,7 +103,7 @@
 }
 
 .modal-order-list-item:first-child {
-  background-color: #f8766b;
+  background-color: var(--pink-color);
 }
 @media only screen and (min-width: 768px) {
   .modal-order-list-item:first-child img {
@@ -119,7 +119,7 @@
 }
 
 .modal-order-list-item:last-child {
-  background-color: #9dc262;
+  background-color: var(--modal-green);
 }
 
 .modal-order-list-text {
@@ -190,7 +190,7 @@
   cursor: pointer;
   width: 16px;
   height: 16px;
-  border: 1.5px solid #ffffff;
+  border: 1.5px solid var(--white-color);
   border-radius: 4px;
   color: transparent;
   position: absolute;
@@ -237,7 +237,7 @@
   left: 0px;
   top: 0px;
   opacity: 0.3;
-  border: 1px solid #000000;
+  border: 1px solid var(--black-color);
   border-radius: 100px;
   padding-top: 14px;
   padding-bottom: 14px;
@@ -250,7 +250,7 @@
   top: 180px;
 
   opacity: 0.3;
-  border: 1px solid #000000;
+  border: 1px solid var(--black-color);
   border-radius: 20px;
   padding-top: 14px;
   padding-left: 24px;
