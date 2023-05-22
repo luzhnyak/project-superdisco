@@ -30,10 +30,26 @@
         </p>
       </li>
     </ul>
-    <img class="gif-image"
-      src="./img/how-it-works/gif-fruits-origin.gif"
-      alt="Animated fruits"
-      loading="lazy"
-    />
+    <picture>
+      <source
+        srcset="./img/how-it-works/gif-fruits-335x476.gif"
+        media="(min-width:375px)"
+      />
+      <source
+        srcset="./img/how-it-works/gif-fruits-704x476.gif"
+        media="(min-width:768px)"
+      />
+      <source
+        srcset="./img/how-it-works/gif-fruits-860x476.gif"
+        media="(min-width:1280px)"
+      />
+      <img
+        class="gif-image"
+        src="../img/how-it-works/gif-fruits-335x476.gif"
+        alt="Animated fruits"
+        height="335px"
+        width="476px"
+      />
+    </picture>
   </div>
 </section>
