@@ -26,11 +26,11 @@
   display: flex;
   align-items: center;
   color: var(--red-color);
+  transition: transform 500ms; 
 }
 .logo:hover, 
 .logo:focus {
-color: var(--hover-color);
-transition: transform 250ms;  
+color: var(--hover-color); 
   transform: scale(1.3);
 }
 
@@ -52,7 +52,7 @@ transition: transform 250ms;
   height: 28px;
   border: none;
   margin-left: 200px;
-  transition: transform 250ms;
+  transition: transform 500ms;
 }
 .button-basket:hover, 
 .button-basket:focus {
@@ -71,7 +71,7 @@ fill: var(--hover-color);
   background-color: var(--white-color);
   padding: 0;
   border: none;
-  transition: transform 250ms;
+  transition: transform 500ms;
 }
 .mobile-menu-open:hover, 
 .mobile-menu-open:focus {
@@ -109,7 +109,7 @@ fill: var(--hover-color);
     padding-bottom: 16px;
     padding-left: 20px;
     padding-right: 20px;
-    transition: transform 250ms;
+    transition: transform 500ms;
   }
   .mobile-menu-logo:hover,
   .mobile-menu-logo:focus {
@@ -149,7 +149,7 @@ fill: var(--hover-color);
 
   .mobile-menu-close-btn {
     padding: 0;
-    transition: transform 250ms;
+    transition: transform 500ms;
   }
   .mobile-menu-close-btn:hover,
   .mobile-menu-close-btn:focus{
@@ -169,7 +169,7 @@ fill: var(--hover-color);
     line-height: 1.3;
     letter-spacing: -0.04em;
     color: var(--white-color);
-    transition: transform 250ms;
+    transition: transform 500ms;
   }
   .mobile-nav:hover, 
   .mobile-nav:focus {
@@ -182,7 +182,7 @@ fill: var(--hover-color);
     width: 28px;
     height: 28px;
     border: none;
-    transition: transform 250ms;
+    transition: transform 500ms;
   }
 
   .mobile-button-basket:hover,
@@ -228,11 +228,13 @@ fill: var(--hover-color);
     line-height: 1.3;
     letter-spacing: -0.04em;
     color: var(--red-color);
-    transition: transform 250ms;
+    transition: transform 500ms;
   }
   .nav-link:hover, 
   .nav-link:focus {
-color: var(--hover-color);
+   color: var(--hover-color);
+   /* font-weight: 500; */
+   /* transform: scale(1.1); */
   }
 
   .nav-item:not(:last-child) {

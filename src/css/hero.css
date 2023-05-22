@@ -1,9 +1,9 @@
 /* ======================= Hero ========================== */
 /* Hero upper part */
+
+
 .hero-container {
   position: relative;
-
-  padding-bottom: 80px;
 
   background-image: url(../img/images-hero/hero-flying-fruits/flying-fruits-mobile@1x.png);
   background-repeat: no-repeat;
@@ -47,14 +47,17 @@
 }
 
 .hero-girl-container {
-  padding-left: 11px;
-  padding-right: 11px;
-  
-  
-  /* border: 1px solid transparent;
+  padding: 15px;
+  background-image: linear-gradient(359.94deg,
+      #ffffff -1.7%,
+      rgba(255, 255, 255, 0.441769) 30.64%,
+      rgba(255, 255, 255, 0) 76.92%);
   border-radius: 500px;
+}
 
-  border-image: linear-gradient(to top, var(--white-color), transparent); */
+.hero-girl-img {
+  border-radius: 500px;
+  box-shadow: 0 0 0 14px var(--red-color);
 }
 
 
@@ -241,6 +244,7 @@
 
   .hero-container-left {
     justify-content: flex-end;
+    margin-bottom: 0;
   }
 
   .hero-container-right {
