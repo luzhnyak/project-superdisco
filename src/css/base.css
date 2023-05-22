@@ -5,11 +5,11 @@
   --modal-thank-you-color: #e03f5e;
   --green-color: #a4cb66;
   --yellow-color: #f5ce13;
-  --pink-color: #F8766B;
-  --modal-yellow: #EDD251;
-  --modal-green: #9DC262;
-  --modal-submit: #9DC162;
-
+  --pink-color: #f8766b;
+  --modal-yellow: #edd251;
+  --modal-green: #9dc262;
+  --modal-submit: #9dc162;
+  --hover-color: #DC143C;
 }
 
 body {
@@ -17,7 +17,8 @@ body {
   letter-spacing: 0.02em;
   font-size: 14px;
   line-height: 1.29;
-  color: white;
+  background-color: var(--red-color);
+  color: var(--white-color);
 }
 
 /* ======================= Utilites ========================== */
@@ -31,12 +32,12 @@ body {
 }
 
 .section {
+  padding-bottom: 80px;
 }
 
 .container {
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 80px;
 }
 
 @media screen and (min-width: 375px) {
@@ -48,23 +49,23 @@ body {
 
 @media screen and (min-width: 768px) {
   .section {
+    padding-bottom: 144px;
   }
 
   .container {
     width: 768px;
     padding-left: 32px;
     padding-right: 32px;
-    padding-bottom: 144px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .section {
+    padding-bottom: 150px;
   }
 
   .container {
     width: 1280px;
-    padding-bottom: 150px;
   }
 }
 

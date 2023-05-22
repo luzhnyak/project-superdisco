@@ -1,5 +1,9 @@
 /* ======================= Footer ========================== */
-/* footer container */
+
+.footer-section {
+  background-color: var(--white-color);
+}
+
 .footer-container {
   padding-left: 20px;
   padding-right: 20px;
