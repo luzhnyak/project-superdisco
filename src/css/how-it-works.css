@@ -163,29 +163,33 @@
   object-fit: cover;
 }
 
-
 @media only screen and (min-width: 375px) {
   .gif-image {
+    width: 335px;
+    height: 476;
     margin-top: 44px;
     margin-right: auto;
     margin-bottom: auto;
     margin-left: auto;
   }
-} 
+}
 
 @media only screen and (min-width: 768px) {
   .gif-image {
-  
+    width: 704px;
+    height: 476;
   }
-} 
+}
 
 @media screen and (min-width: 1280px) {
   .gif-image {
+    width: 860px;
+    height: 476;
     margin-top: 44px;
     margin-right: auto;
     margin-bottom: auto;
     margin-left: auto;
-    }
+  }
 }
 
 /*======================= /How it works ========================== */
