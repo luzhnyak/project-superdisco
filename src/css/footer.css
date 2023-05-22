@@ -81,7 +81,7 @@
   transition-property: fill, color;
   transition-duration: 500ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-transition: transform 250ms;
+transition: transform 500ms;
 }
 .footer-logo-link:hover,
 .footer-logo-link:focus {
