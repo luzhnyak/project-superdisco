@@ -323,8 +323,10 @@
     position: absolute;
     /* bottom: 15%; */
     top: 335px;
-    right: 0;
-    margin-right: 30px;
+    /* right: 0; */
+    /* margin-right: ; */
+    margin-left: 937px;
+    /* margin-right: 30px; */
   }
 
   .hero-hashtag-list {
