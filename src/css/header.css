@@ -26,11 +26,11 @@
   display: flex;
   align-items: center;
   color: var(--red-color);
+  transition: transform 250ms; 
 }
 .logo:hover, 
 .logo:focus {
-color: var(--hover-color);
-transition: transform 250ms;  
+color: var(--hover-color); 
   transform: scale(1.3);
 }
 
