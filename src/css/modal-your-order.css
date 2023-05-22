@@ -209,6 +209,7 @@ top: 841px;
 border: none;
 background-color: var(--modal-submit);
 border-radius: 100px;
+color: var(--white-color);
 }
 @media only screen and (min-width: 375px) {
     .modorder {
@@ -219,7 +220,13 @@ border-radius: 100px;
     }
   }
   @media only screen and (min-width: 768px) {
-    .modorder-girl{
-      display: flex;
-  }
+    .modal-order {  
+      background-color: var(--white-color);
+      background-image: url(../img/modal-order/girl-desk@1x.png);
+      background-repeat: no-repeat;
+      background-color: var(--white-color);
+background-position-x: 409px;
+background-position-y: bottom;
+    }
+    
   }
