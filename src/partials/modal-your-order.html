@@ -42,14 +42,19 @@
               alt="Strawberry Basket"
             />
           </picture>
-          <input
+          <input class="modal-order-check visually-hidden"
             type="checkbox"
             id="strawbasket"
             name="basket"
-            value="strawbasket"
-            class="modal-order-check visually-hidden"
+            value="strawbasket"            
           />
+          <span class="modal-order-fake-checkbox">
+            <svg  class="svgpick" width="6px" height="6px">
+              <use href="./img/icons.svg#icon-pick"></use>
+            </svg>
+          </span>
         </label>
+        
       </li>
       <li class="modal-order-list-item">
         <label for="applebasket" class="modal-order-lable-checkbox">
@@ -84,14 +89,18 @@
               alt="Strawberry Basket"
             />
           </picture>
-          <input
+          <input class="modal-order-check visually-hidden"
             type="checkbox"
             id="applebasket"
             name="basket"
-            value="applebasket"
-            class="modal-order-check visually-hidden"
-            checked
+            value="applebasket" 
+            checked           
           />
+          <span class="modal-order-fake-checkbox">
+            <svg  class="svgpick" width="6px" height="6px">
+              <use href="./img/icons.svg#icon-pick"></use>
+            </svg>
+          </span>
         </label>
       </li>
       <li class="modal-order-list-item">
@@ -127,13 +136,17 @@
               alt="Strawberry Basket"
             />
           </picture>
-          <input
+          <input class="modal-order-check visually-hidden"
             type="checkbox"
             id="fruitsbasket"
             name="basket"
-            value="fruitsbasket"
-            class="modal-order-check visually-hidden"
+            value="fruitsbasket"            
           />
+          <span class="modal-order-fake-checkbox">
+            <svg  class="svgpick" width="6px" height="6px">
+              <use href="./img/icons.svg#icon-pick"></use>
+            </svg>
+          </span>
         </label>
       </li>
     </ul>
@@ -153,6 +166,7 @@
           type="email"
           class="modorder-input"
           name="email"
+          required
           id="client-email"
           placeholder="Enter email..."
         />
@@ -179,12 +193,5 @@
     </div>
     <button type="submit" class="modorder-btn">Submit</button>
   </form>
-  <img
-    src="./img/modorder_img/mod_girl_desktop1x.png"
-    alt="Strawberry Basket"
-    srcset="./img/modorder_img/mod_girl_desktop2x.png 2x"
-    height="458"
-    width="471"
-    class="modorder-girl"
-  />
+  
 </div>
