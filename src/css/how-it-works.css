@@ -163,29 +163,35 @@
   object-fit: cover;
 }
 
-
+/* MOBILE */
 @media only screen and (min-width: 375px) {
   .gif-image {
-    margin-top: 44px;
-    margin-right: auto;
-    margin-bottom: auto;
-    margin-left: auto;
+    border-radius: 20px;
+    width: 335px;
+    height: 476px;
+    object-fit: cover;
   }
-} 
+}
 
+/*TABLET */
 @media only screen and (min-width: 768px) {
   .gif-image {
-  
+    width: 704px;
+    height: 476px;
+    object-fit: cover;
   }
-} 
-
+}
+/* DESKTOP */
 @media screen and (min-width: 1280px) {
   .gif-image {
+    width: 860px;
+    height: 476px;
+    object-fit: cover;
     margin-top: 44px;
     margin-right: auto;
     margin-bottom: auto;
     margin-left: auto;
-    }
+  }
 }
 
 /*======================= /How it works ========================== */
