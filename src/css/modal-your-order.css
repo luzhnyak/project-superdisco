@@ -229,5 +229,10 @@ color: var(--white-color);
 background-position-x: 409px;
 background-position-y: bottom;
     }
-    
+    .modorder-input {
+     width: 360px;
+    }
+    .modorder-textarea {
+      width: 360px;
+    }
   }
