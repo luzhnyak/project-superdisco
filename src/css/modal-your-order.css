@@ -58,6 +58,11 @@
     height: 28px;
   }
 }
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+  transition: transform 250ms;
+  transform: scale(1.3);
+}
 
 
 .modal-order-list {
