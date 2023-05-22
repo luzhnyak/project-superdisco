@@ -1,7 +1,5 @@
 /* ======================= Contacts ========================== */
 .contacts-container {
-  background-color: var(--red-color);
-  padding-bottom: 80px;
   border: none;
 }
 .contacts-tittle {
