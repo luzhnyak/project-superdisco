@@ -32,6 +32,7 @@
   position: absolute;
   top: 56px;
   max-width: 355px;
+  padding: 0 5px;
   font-weight: 500;
   font-size: 28px;
   line-height: 1;
@@ -66,20 +67,21 @@
 .hero-btn {
   position: absolute;
   top: 560px;
-  /* bottom: -6%; */
-
   display: flex;
   justify-content: center;
-
   padding: 20px 12px;
   width: 80px;
   height: 80px;
-
   transform: rotate(-14deg);
-
   border: none;
   border-radius: 50%;
   background-color: var(--white-color);
+}
+
+@media only screen and (max-width: 375px) {
+  .hero-btn {
+    top: 480px;
+  }
 }
 
 .hero-btn-text {

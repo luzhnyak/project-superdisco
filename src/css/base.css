@@ -9,7 +9,7 @@
   --modal-yellow: #edd251;
   --modal-green: #9dc262;
   --modal-submit: #9dc162;
-  --hover-color: #DC143C;
+  --hover-color: #dc143c;
 }
 
 body {
@@ -19,6 +19,7 @@ body {
   line-height: 1.29;
   background-color: var(--red-color);
   color: var(--white-color);
+  min-width: 320px;
 }
 
 /* ======================= Utilites ========================== */
