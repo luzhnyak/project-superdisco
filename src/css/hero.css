@@ -76,9 +76,16 @@
   border: none;
   border-radius: 50%;
   background-color: var(--white-color);
+  color: var(--red-color);
+  transition: var(--transition-color);
 }
 
-@media only screen and (max-width: 375px) {
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--green-color);
+}
+
+@media only screen and (max-width: 374px) {
   .hero-btn {
     top: 480px;
   }
@@ -91,7 +98,6 @@
   letter-spacing: -0.04em;
   text-transform: uppercase;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
-  color: var(--red-color);
 }
 
 .hero-text {
