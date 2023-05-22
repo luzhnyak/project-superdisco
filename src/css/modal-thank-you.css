@@ -35,6 +35,13 @@
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .modal-thank-you-img{
+    width: 278px;
+    height: 239px;    
+  }
+}
+
 .modal-thankYou-title {
   margin-bottom: 14px;
   font-weight: 500;

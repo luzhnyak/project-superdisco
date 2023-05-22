@@ -91,10 +91,34 @@
   border-radius: 20px;
   position: relative;
 }
+@media only screen and (min-width: 768px) {
+  .modal-order-list-item img {
+    width: 172px;
+    height: 148px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .modal-order-list-item img {
+    width: 229px;
+    height: 196px;
+  }
+}
 
 
 .modal-order-list-item:first-child {
   background-color: #F8766B;
+}
+@media only screen and (min-width: 768px) {
+  .modal-order-list-item:first-child img{
+    width: 133px;
+    height: 148px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .modal-order-list-item:first-child img {
+    width: 173px;
+    height: 196px;
+  }
 }
 
 
