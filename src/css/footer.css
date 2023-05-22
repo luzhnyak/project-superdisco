@@ -38,19 +38,6 @@
   padding-bottom: 80px;
 }
 
-@media screen and (min-width: 768px) {
-  .footer-list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .footer-list {
-    align-items: flex-start;
-  }
-}
-
 /* logo */
 .footer-logo-anchor {
   margin-bottom: 44px;
@@ -85,7 +72,7 @@
   transition-property: fill, color;
   transition-duration: 500ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-transition: transform 250ms;
+transition: transform 500ms;
 }
 .footer-logo-link:hover,
 .footer-logo-link:focus {
