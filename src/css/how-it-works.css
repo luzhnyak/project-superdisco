@@ -161,11 +161,8 @@
   color: var(--black-color);
 }
 
-.gif-section {
-  background-color: var(--red-color);
-}
-
 .gif-image {
+  margin-top: 44px;
   border-radius: 20px;
   object-fit: cover;
 }
@@ -194,8 +191,11 @@
     width: 860px;
     height: 476px;
     object-fit: cover;
-    margin: auto;
-  }
+    margin-top: 44px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    }
 }
 
 /*======================= /How it works ========================== */
