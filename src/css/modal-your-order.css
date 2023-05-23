@@ -265,6 +265,14 @@
   padding-top: 14px;
   padding-left: 24px;
 }
+
+@media only screen and (max-width: 374px) {
+  .modorder-input {    
+    width: 280px;    
+  }
+  .modorder-textarea {
+    width: 280px;}
+}
 .modorder-btn {
   display: flex;
   flex-direction: row;

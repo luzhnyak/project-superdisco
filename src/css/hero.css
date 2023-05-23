@@ -29,8 +29,8 @@
 
 .hero-header {
   position: absolute;
-  z-index: 100;
-  top: 56px;
+  z-index: 10;
+  top: -42px;
   max-width: 355px;
   padding: 0 5px;
   font-weight: 500;
