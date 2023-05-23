@@ -84,24 +84,16 @@
   left: 290px;
   color: var(--white-color);
   border: currentColor;
-  background: #9dc262;
+  background-color: var(--green-color);
   border-radius: 100px;
-
-  transition: background-color 500ms cubic-bezier(0.18, 0.89, 0.32, 1.28),
-    border-color 500ms cubic-bezier(0.18, 0.89, 0.32, 1.28),
-    box-shadow 500ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  transition: var(--transition-color), var(--transition-background);
 }
 .contacts-button:hover,
 .contacts-button:focus {
-  background-color: #ffffff;
-  color: #9dc262;
+  background-color: var(--white-color);
+  color: var(--green-color);
 }
-/* .feedback-email:invalid + .contacts-button {
-  pointer-events: none;
-}
-.feedback-email:valid + .contacts-button {
-  pointer-events: inherit;
-} */
+
 @media only screen and (max-width: 767px) {
   .contacts-image-item:last-child {
     display: none;
@@ -113,6 +105,7 @@
     display: none;
   }
 }
+
 @media only screen and (min-width: 768px) {
   .contacts-tittle {
     margin-bottom: -30px;
@@ -122,6 +115,14 @@
   }
   .contacts-list {
     margin-bottom: 80px;
+  }
+  .contacts-image-melon {
+    width: 344px;
+    height: 480px;
+  }
+  .contacts-image-blueberry {
+    width: 344px;
+    height: 480px;
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -134,6 +135,14 @@
   .contacts-list {
     display: flex;
     gap: 24px;
+  }
+  .contacts-image-melon {
+    width: 792px;
+    height: 502px;
+  }
+  .contacts-image-blueberry {
+    width: 400px;
+    height: 502px;
   }
 }
 /*======================= /Contacts ========================== */
