@@ -151,7 +151,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 16px 14px 8px 20px;
+  padding: 16px 14px 8px;
 }
 /* tablet + desktop */
 @media only screen and (min-width: 768px) {
@@ -287,4 +287,5 @@ background-position-y: bottom;
       width: 360px;
     }
 >>>>>>> 181800e9d612425d42f5016e0529b45262b6188f
-  }
+   }
+ 
