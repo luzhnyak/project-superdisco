@@ -243,12 +243,15 @@
   padding-bottom: 14px;
   padding-left: 24px;
 }
+
+.modorder-input:not(:focus):not(:placeholder-shown):invalid {
+  outline: 5px solid var(--red-color);
+}
 .modorder-textarea {
   width: 295px;
   height: 132px;
   left: 0px;
   top: 180px;
-
   opacity: 0.3;
   border: 1px solid var(--black-color);
   border-radius: 20px;
