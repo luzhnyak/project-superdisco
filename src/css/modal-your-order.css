@@ -151,7 +151,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 16px 14px 8px 20px;
+  padding: 16px 14px 8px 0px;
 }
 /* tablet + desktop */
 @media only screen and (min-width: 768px) {
