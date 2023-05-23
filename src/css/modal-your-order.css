@@ -111,6 +111,9 @@
     width: 133px;
     height: 148px;
   }
+  .modal-order-list-text {
+  margin-left: 20px;
+  }
 }
 @media only screen and (min-width: 1280px) {
   .modal-order-list-item:first-child img {
@@ -126,7 +129,7 @@
 .modal-order-list-text {
   display: block;
   margin-right: auto;
-  margin-left: 20px;
+  
 }
 
 .label-checkbox {
@@ -173,7 +176,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 16px 14px 8px 0px;
+  padding: 16px 14px 8px 20px;
 }
 
 /* tablet + desktop */
@@ -249,7 +252,7 @@
 }
 
 .modorder-input:not(:focus):not(:placeholder-shown):invalid {
-  outline: 5px solid var(--red-color);
+  outline: 1px solid var(--red-color);
 }
 .modorder-textarea {
   width: 295px;
