@@ -44,14 +44,14 @@
   transition: 0.3s all;
 }
 
+/* Стили для активных классов подложки и окна */
+
 @media only screen and (max-height: 890px) {
   .modal {
     overflow: auto;
     max-height: 95vh;
   }
 }
-
-/* Стили для активных классов подложки и окна */
 
 .modal.active,
 .overlay.active {

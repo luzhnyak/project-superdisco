@@ -1,22 +1,18 @@
 /* ======================= Hero ========================== */
 /* Hero upper part */
 
-.hero-section {
-  position: relative;
+.hero-section {  
   background-image: url(../img/images-hero/hero-flying-fruits/flying-fruits-mobile@1x.png);
   padding-top: 104px;
   background-repeat: no-repeat;
   background-position: 50% 0;
 }
 
-/* @media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .hero-container {
-    background-image: url(../img/images-hero/hero-flying-fruits/flying-fruits-mobile@2x.png);
-  }
-} */
+.hero-container{
+  position: relative;
+  /* outline: 1px solid #fff;
+  outline-offset: 2px; */
+}
 
 .hero-upper-part {
   display: flex;
@@ -25,8 +21,15 @@
   margin-bottom: 71px;
 }
 
+@media only screen and (min-width: 1280px) {
+  .hero-upper-part {    
+    margin-bottom: 103px;
+  }
+}
+
 .hero-header {
   position: absolute;
+  z-index: 100;
   top: 56px;
   max-width: 355px;
   padding: 0 5px;
@@ -41,6 +44,8 @@
 }
 
 .hero-girl-container {
+  position: relative;
+  z-index: 0;
   padding: 12px;
   background-image: linear-gradient(
     359.94deg,
@@ -63,13 +68,14 @@
 
 .hero-btn {
   position: absolute;
-  top: 560px;
+  bottom: -27px;
+  left: 50%;  
   display: flex;
   justify-content: center;
   padding: 20px 12px;
   width: 80px;
   height: 80px;
-  transform: rotate(-14deg);
+  transform: translateX(-50%) rotate(-14deg);
   border: none;
   border-radius: 50%;
   background-color: var(--white-color);
@@ -80,12 +86,6 @@
 .hero-btn:hover,
 .hero-btn:focus {
   color: var(--green-color);
-}
-
-@media only screen and (max-width: 374px) {
-  .hero-btn {
-    top: 480px;
-  }
 }
 
 .hero-btn-text {
@@ -126,20 +126,16 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
   padding-top: 28px;
   padding-bottom: 40px;
-
   width: 249px;
-  min-height: 387px;
-
+  min-height: auto;
   background-color: var(--green-color);
   border-radius: 500px;
 }
 
 .hero-card-title {
   margin-bottom: 61px;
-
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -149,7 +145,6 @@
 
 .fruit-card-descr {
   max-width: 155px;
-
   font-weight: 500;
   font-size: 12px;
   line-height: 1.17;
@@ -181,7 +176,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   border: 1px solid var(--white-color);
   border-radius: 1000px;
 }
@@ -211,20 +205,9 @@
     padding-top: 105px;
   }
 
-  /* @media (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero-section {
-      background-image: url(../img/images-hero/hero-flying-fruits/flying-fruits-tablet@2x.png);
-    }
-    .hero-container {
-    }
-  } */
-
-  .hero-header {
+  .hero-header {    
     max-width: 704px;
-    top: 64px;
+    top: -40px;
     font-size: 50px;
     line-height: 1.08;
   }
@@ -233,7 +216,7 @@
     width: 114px;
     height: 114px;
     padding: 30px 15px;
-    top: 745px;
+    bottom: -15px;    
   }
 
   .hero-btn-text {
@@ -283,26 +266,16 @@
     padding-top: 105px;
   }
 
-  /* @media (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero-container {
-      background-image: url(../img/images-hero/hero-flying-fruits/flying-fruits-desc@2x.png);
-    }
-  } */
-
   .hero-header {
     max-width: 898px;
-
     font-size: 64px;
     line-height: 1;
   }
 
   .hero-container-left {
     position: absolute;
-    top: 408px;
-    margin-left: 30px;
+    top: 303px;
+    left: 62px;
     flex-direction: column;
   }
 
@@ -312,12 +285,12 @@
 
   .hero-container-right {
     position: absolute;
-    top: 335px;
-    margin-left: 937px;
+    top: 230px;
+    right: 45px;    
   }
 
   .hero-hashtag-list {
-    max-width: 270px;
+    max-width: 290px;
   }
 }
 

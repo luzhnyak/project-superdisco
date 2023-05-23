@@ -159,9 +159,9 @@
 
 .gif-video {
   display: block;
-  width: 335px;
-  height: 476px;
-  margin-top: 44px;
+  width: 280px;
+  height: 460px;
+  margin: 44px auto 0 auto;
   border-radius: 20px;
   object-fit: cover;
 }
