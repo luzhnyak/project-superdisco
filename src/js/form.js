@@ -4,6 +4,7 @@ const form = document.querySelector('.thank-form');
 const backdrop = document.querySelector('.overlay');
 const openModalBtn = document.querySelector('.contacts-button');
 const closeBtns = document.querySelectorAll('.close-btn');
+const input = document.querySelector('.feedback-email');
 const openSuccessModal = () => {
   thankModal.classList.add(MODAL_ACTIVE_CLASS_NAME);
   backdrop.classList.add(MODAL_ACTIVE_CLASS_NAME);
@@ -12,6 +13,7 @@ const openSuccessModal = () => {
 const closeSuccessModal = () => {
   thankModal.classList.remove(MODAL_ACTIVE_CLASS_NAME);
   backdrop.classList.remove(MODAL_ACTIVE_CLASS_NAME);
+  input.value = '';
 };
 closeBtns.forEach(btn => {
   btn.addEventListener('click', e => {
@@ -22,4 +24,5 @@ closeBtns.forEach(btn => {
 form.addEventListener('submit', e => {
   e.preventDefault();
   setTimeout(openSuccessModal, 300);
+  setTimeout(closeSuccessModal, 2400);
 });
