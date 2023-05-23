@@ -157,16 +157,19 @@
   color: var(--black-color);
 }
 
-.gif-image {
+.gif-video {
+  display: block;
+  width: 335px;
+  height: 476px;
   margin-top: 44px;
   border-radius: 20px;
   object-fit: cover;
 }
 
 @media only screen and (min-width: 375px) {
-  .gif-image {
+  .gif-video {
     width: 335px;
-    height: 476;
+    height: 476px;
     margin-top: 44px;
     margin-right: auto;
     margin-bottom: auto;
@@ -175,21 +178,24 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .gif-image {
+  .gif-video {
+    display: block;
     width: 704px;
-    height: 476;
+    height: 476px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .gif-image {
+  .gif-video {
+    display: block;
     width: 860px;
-    height: 476;
+    height: 476px;
     margin-top: 44px;
     margin-right: auto;
     margin-bottom: auto;
     margin-left: auto;
   }
 }
+
 
 /*======================= /How it works ========================== */
