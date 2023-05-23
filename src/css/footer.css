@@ -62,6 +62,10 @@
   }
 }
 
+.footer-img {
+  border-radius: 100px;
+}
+
 .footer-logo-link {
   color: var(--red-color);
   margin-top: 10px;
