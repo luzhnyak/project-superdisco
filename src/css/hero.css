@@ -8,15 +8,6 @@
   background-position: 50% 0;
 }
 
-/* @media (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .hero-container {
-    background-image: url(../img/images-hero/hero-flying-fruits/flying-fruits-mobile@2x.png);
-  }
-} */
-
 .hero-container{
   position: relative;
   /* outline: 1px solid #fff;
@@ -138,7 +129,7 @@
   padding-top: 28px;
   padding-bottom: 40px;
   width: 249px;
-  min-height: 387px;
+  min-height: auto;
   background-color: var(--green-color);
   border-radius: 500px;
 }
@@ -214,17 +205,6 @@
     padding-top: 105px;
   }
 
-  /* @media (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero-section {
-      background-image: url(../img/images-hero/hero-flying-fruits/flying-fruits-tablet@2x.png);
-    }
-    .hero-container {
-    }
-  } */
-
   .hero-header {    
     max-width: 704px;
     top: -40px;
@@ -286,15 +266,6 @@
     padding-top: 105px;
   }
 
-  /* @media (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero-container {
-      background-image: url(../img/images-hero/hero-flying-fruits/flying-fruits-desc@2x.png);
-    }
-  } */
-
   .hero-header {
     max-width: 898px;
     font-size: 64px;
@@ -315,8 +286,7 @@
   .hero-container-right {
     position: absolute;
     top: 230px;
-    right: 45px;
-    /* margin-left: 937px; */
+    right: 45px;    
   }
 
   .hero-hashtag-list {
