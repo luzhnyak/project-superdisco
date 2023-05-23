@@ -24,7 +24,7 @@
 
     
     <script type="module" crossorigin src="/project-superdisco/assets/index-72112a37.js"></script>
-    <link rel="stylesheet" href="/project-superdisco/assets/index-204344e8.css">
+    <link rel="stylesheet" href="/project-superdisco/assets/index-5b927668.css">
   </head>
   <body>
     <!-- Header section -->
@@ -767,6 +767,8 @@
             type="text"
             class="modorder-input"
             name="client-name"
+            pattern="[a-z]{2,25}"
+            title="Enter please Your name"
             required
             id="client-name"
             placeholder="Enter full name..."
@@ -777,6 +779,7 @@
             type="email"
             class="modorder-input"
             name="email"
+            title="Enter Your e-mail"
             required
             id="client-email"
             placeholder="Enter email..."
@@ -788,6 +791,9 @@
             class="modorder-input"
             name="client-card"
             required
+           min="1"
+           max="1000000000"
+            title="Enter Your number card"
             id="client-card"
             placeholder="Enter card..."
           >
