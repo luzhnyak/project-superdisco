@@ -1,12 +1,34 @@
-# Vanilla App Template
 
-Цей проект було створено за допомогою Vite. Для знайомства та налаштування
-додаткових можливостей [звернись до документації](https://vitejs.dev/).
+![Alt-main page](/src/img/readme/main.png)
 
-## Створення репозиторію за шаблоном
+<h1 align="center">FRESH HARVEST BOX</h1>
+<p align="center">
+</p>
 
-Використовуй цей репозиторій організації GoIT як шаблон для створення
-репозиторію свого проекту. Для цього натисни на кнопку `«Use this template»` і
-обери опцію `«Create a new repository»`, як показано на зображенні.
+# Про проєкт:
 
-![Creating repo from a template step 1](./assets/template-step-1.png)
+**FRESH HARVEST BOX** - це проєкт інтернет-магазину органічних фруктів, де кожен охочий може придбати дуже смачні екологічні плоди. Даний сайт складається із трьох розділів, а саме:
+
+- **How It works**
+- **Fruits**
+- **Contacts**
+
+
+
+# Функціонал покупця:
+
+- можливість ознайомитись із описом кожного фрукту;
+- можливість здійснити одну чи декілька покупок через корзину або кнопку **Order**;
+- під час оформлення замовлення з'являється модальне вікно з можливістю обрати товар та його кількість, заповнити всі відповідні поля та підтвердити за допомогою натискання на кнопку **Submit**.
+
+# Команда розробників, які працювали над проєктом:
+
+1. **Oleh Luzhniak** - Team leader
+2. **Oksana Soin** - Scrum master
+3. **Alona Luchina** - Header section
+4. **Anna Matsarska** - Fruits section
+5. **Kyryk Dmytro** - How it works section
+6. **Bohdana Taraskina** - Hero section
+7. **Andriy Popovych** - Modal your order section
+8. **Vitalii Lisnychenko** - Contacts section
+9. **Serhii Marchenko** - Footer section
