@@ -144,12 +144,14 @@
   line-height: 1.33;
   letter-spacing: -0.04em;
 }
+
 /* tablet */
 @media only screen and (min-width: 768px) {
   .modal-order-list-text h3 {
     margin-bottom: 2px;
   }
 }
+
 /* desktop */
 @media only screen and (min-width: 1280px) {
   .modal-order-list-text h3 {
@@ -170,8 +172,9 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 16px 14px 8px 20px;
+  padding: 16px 14px 8px 0px;
 }
+
 /* tablet + desktop */
 @media only screen and (min-width: 768px) {
   .modal-order-lable-checkbox {
@@ -283,17 +286,42 @@
 @media only screen and (min-width: 768px) {
   .modal-order {
     background-color: var(--white-color);
-    background-image: url(../img/modal-order/girl-desk@1x.png);
+    background-image: url(../img/modal-order/girl-tab@1x.png);
     background-repeat: no-repeat;
-    background-color: var(--white-color);
-    background-position-x: 409px;
+    background-position-x: 414px;
     background-position-y: bottom;
+    background-size: 290px 464px;
   }
   .modorder-input {
     width: 360px;
   }
   .modorder-textarea {
     width: 360px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
+  only screen and (min-width: 768px) and (min-resolution: 192dpi),
+  only screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .modal-order {
+    background-image: url(../img/modal-order/girl-tab@2x.png);
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .modal-order {
+    background-image: url(../img/modal-order/girl-desk@1x.png);
+    background-position-x: 420px;
+    background-position-y: bottom;
+    background-size: 471px 458px;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (min-device-pixel-ratio: 2),
+  only screen and (min-width: 1280px) and (min-resolution: 192dpi),
+  only screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+  .modal-order {
+    background-image: url(../img/modal-order/girl-desk@2x.png);
   }
 }
 

@@ -1,210 +1,216 @@
 <!-- Modal your order -->
 
 <div class="modal modal-order" data-modal="your-order-modal">
-  <h2 class="modal-order-title">YOUR ORDER</h2>
-  <button type="button" class="modal-close-btn js-modal-close" data-modal-close>
-    <svg width="24" height="24" class="modal-order-close-svg">
-      <use href="./img/icons.svg#icon-close-btn"></use>
-    </svg>
-  </button>
-  <form class="modal-order-form">
-    <ul class="modal-order-list list">
-      <li class="modal-order-list-item">
-        <div class="modal-order-lable-checkbox">
-          <div class="modal-order-list-text">
-            <h3>Strawberry Basket</h3>
-            <p>Plant</p>
+  <div class="modal-order-container">
+    <h2 class="modal-order-title">YOUR ORDER</h2>
+    <button
+      type="button"
+      class="modal-close-btn js-modal-close"
+      data-modal-close
+    >
+      <svg width="24" height="24" class="modal-order-close-svg">
+        <use href="./img/icons.svg#icon-close-btn"></use>
+      </svg>
+    </button>
+    <form class="modal-order-form">
+      <ul class="modal-order-list list">
+        <li class="modal-order-list-item">
+          <div class="modal-order-lable-checkbox">
+            <div class="modal-order-list-text">
+              <h3>Strawberry Basket</h3>
+              <p>Plant</p>
+            </div>
+            <picture>
+              <source
+                srcset="
+                  ./img/modal-order/strawberry-desk@1x.png 1x,
+                  ./img/modal-order/strawberry-desk@2x.png 2x
+                "
+                media="(min-width: 1280px)"
+              />
+              <source
+                srcset="
+                  ./img/modal-order/strawberry-tab@1x.png 1x,
+                  ./img/modal-order/strawberry-tab@2x.png 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./img/modal-order/strawberry-mob@1x.png 1x,
+                  ./img/modal-order/strawberry-mob@2x.png 2x
+                "
+                media="(max-width: 767px)"
+              />
+              <img
+                class="modal-order-basket-img"
+                src="./img/modal-order/strawberry-mob@1x.png"
+                alt="Strawberry Basket"
+                width="88"
+                height="95"
+              />
+            </picture>
+            <label class="label-checkbox">
+              <input
+                class="modal-order-check visually-hidden"
+                type="checkbox"
+                id="strawbasket"
+                name="basket"
+                value="strawbasket"
+              />
+              <span class="modal-order-fake-checkbox">
+                <svg class="svgpick" width="6" height="6">
+                  <use href="./img/icons.svg#icon-pick"></use>
+                </svg>
+              </span>
+            </label>
           </div>
-          <picture>
-            <source
-              srcset="
-                ./img/modal-order/strawberry-desk@1x.png 1x,
-                ./img/modal-order/strawberry-desk@2x.png 2x
-              "
-              media="(min-width: 1280px)"
-            >
-            <source
-              srcset="
-                ./img/modal-order/strawberry-tab@1x.png 1x,
-                ./img/modal-order/strawberry-tab@2x.png 2x
-              "
-              media="(min-width: 768px)"
-            >
-            <source
-              srcset="
-                ./img/modal-order/strawberry-mob@1x.png 1x,
-                ./img/modal-order/strawberry-mob@2x.png 2x
-              "
-              media="(max-width: 767px)"
-            >
-            <img
-              class="modal-order-basket-img"
-              src="./img/modal-order/strawberry-mob@1x.png"
-              alt="Strawberry Basket"
-              width="88"
-              height="95"
-            >
-          </picture>
-          <label class="label-checkbox">
-            <input
-              class="modal-order-check visually-hidden"
-              type="checkbox"
-              id="strawbasket"
-              name="basket"
-              value="strawbasket"
-            />
-            <span class="modal-order-fake-checkbox">
-              <svg class="svgpick" width="6" height="6">
-                <use href="./img/icons.svg#icon-pick"></use>
-              </svg>
-            </span>
-          </label>
-        </div>
-      </li>
-      <li class="modal-order-list-item">
-        <div class="modal-order-lable-checkbox">
-          <div class="modal-order-list-text">
-            <h3>Apple Basket</h3>
-            <p>Plant</p>
+        </li>
+        <li class="modal-order-list-item">
+          <div class="modal-order-lable-checkbox">
+            <div class="modal-order-list-text">
+              <h3>Apple Basket</h3>
+              <p>Plant</p>
+            </div>
+            <picture>
+              <source
+                srcset="
+                  ./img/modal-order/apples-desk@1x.png 1x,
+                  ./img/modal-order/apples-desk@2x.png 2x
+                "
+                media="(min-width: 1280px)"
+              />
+              <source
+                srcset="
+                  ./img/modal-order/apples-tab@1x.png 1x,
+                  ./img/modal-order/apples-tab@2x.png 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./img/modal-order/apples-mob@1x.png 1x,
+                  ./img/modal-order/apples-mob@2x.png 2x
+                "
+                media="(max-width: 767px)"
+              />
+              <img
+                src="./img/modal-order/apples-mob@1x.png"
+                alt="Strawberry Basket"
+                width="106"
+                height="95"
+              />
+            </picture>
+            <label class="label-checkbox">
+              <input
+                class="modal-order-check visually-hidden"
+                type="checkbox"
+                id="applebasket"
+                name="basket"
+                value="applebasket"
+                checked
+              />
+              <span class="modal-order-fake-checkbox">
+                <svg class="svgpick" width="6" height="6">
+                  <use href="./img/icons.svg#icon-pick"></use>
+                </svg>
+              </span>
+            </label>
           </div>
-          <picture>
-            <source
-              srcset="
-                ./img/modal-order/apples-desk@1x.png 1x,
-                ./img/modal-order/apples-desk@2x.png 2x
-              "
-              media="(min-width: 1280px)"
-            />
-            <source
-              srcset="
-                ./img/modal-order/apples-tab@1x.png 1x,
-                ./img/modal-order/apples-tab@2x.png 2x
-              "
-              media="(min-width: 768px)"
-            >
-            <source
-              srcset="
-                ./img/modal-order/apples-mob@1x.png 1x,
-                ./img/modal-order/apples-mob@2x.png 2x
-              "
-              media="(max-width: 767px)"
-            >
-            <img
-              src="./img/modal-order/apples-mob@1x.png"
-              alt="Strawberry Basket"
-              width="106"
-              height="95"
-            >
-          </picture>
-          <label class="label-checkbox">
-            <input
-              class="modal-order-check visually-hidden"
-              type="checkbox"
-              id="applebasket"
-              name="basket"
-              value="applebasket"
-              checked
-            />
-            <span class="modal-order-fake-checkbox">
-              <svg class="svgpick" width="6" height="6">
-                <use href="./img/icons.svg#icon-pick"></use>
-              </svg>
-            </span>
-          </label>
-        </div>
-      </li>
-      <li class="modal-order-list-item">
-        <div class="modal-order-lable-checkbox">
-          <div class="modal-order-list-text">
-            <h3>Fruits Basket</h3>
-            <p>Plant</p>
+        </li>
+        <li class="modal-order-list-item">
+          <div class="modal-order-lable-checkbox">
+            <div class="modal-order-list-text">
+              <h3>Fruits Basket</h3>
+              <p>Plant</p>
+            </div>
+            <picture>
+              <source
+                srcset="
+                  ./img/modal-order/fruits-desk@1x.png 1x,
+                  ./img/modal-order/fruits-desk@2x.png 2x
+                "
+                media="(min-width: 1280px)"
+              />
+              <source
+                srcset="
+                  ./img/modal-order/fruits-tab@1x.png 1x,
+                  ./img/modal-order/fruits-tab@2x.png 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./img/modal-order/fruits-mob@1x.png 1x,
+                  ./img/modal-order/fruits-mob@2x.png 2x
+                "
+                media="(max-width: 767px)"
+              />
+              <img
+                src="./img/modal-order/fruits-mob@1x.png"
+                alt="Strawberry Basket"
+                width="107"
+                height="95"
+              />
+            </picture>
+            <label class="label-checkbox">
+              <input
+                class="modal-order-check visually-hidden"
+                type="checkbox"
+                id="fruitsbasket"
+                name="basket"
+                value="fruitsbasket"
+              />
+              <span class="modal-order-fake-checkbox">
+                <svg class="svgpick" width="6" height="6">
+                  <use href="./img/icons.svg#icon-pick"></use>
+                </svg>
+              </span>
+            </label>
           </div>
-          <picture>
-            <source
-              srcset="
-                ./img/modal-order/fruits-desk@1x.png 1x,
-                ./img/modal-order/fruits-desk@2x.png 2x
-              "
-              media="(min-width: 1280px)"
-            >
-            <source
-              srcset="
-                ./img/modal-order/fruits-tab@1x.png 1x,
-                ./img/modal-order/fruits-tab@2x.png 2x
-              "
-              media="(min-width: 768px)"
-            />
-            <source
-              srcset="
-                ./img/modal-order/fruits-mob@1x.png 1x,
-                ./img/modal-order/fruits-mob@2x.png 2x
-              "
-              media="(max-width: 767px)"
-            >
-            <img
-              src="./img/modal-order/fruits-mob@1x.png"
-              alt="Strawberry Basket"
-              width="107"
-              height="95"
-            >
-          </picture>
-          <label class="label-checkbox">
-            <input
-              class="modal-order-check visually-hidden"
-              type="checkbox"
-              id="fruitsbasket"
-              name="basket"
-              value="fruitsbasket"
-            />
-            <span class="modal-order-fake-checkbox">
-              <svg class="svgpick" width="6" height="6">
-                <use href="./img/icons.svg#icon-pick"></use>
-              </svg>
-            </span>
-          </label>
+        </li>
+      </ul>
+      <div class="modorder-field">
+        <div class="input-wrap">
+          <input
+            type="text"
+            class="modorder-input"
+            name="client-name"
+            required
+            id="client-name"
+            placeholder="Enter full name..."
+          />
         </div>
-      </li>
-    </ul>
-    <div class="modorder-field">
-      <div class="input-wrap">
-        <input
-          type="text"
-          class="modorder-input"
-          name="client-name"
-          required
-          id="client-name"
-          placeholder="Enter full name..."
-        />
+        <div class="input-wrap">
+          <input
+            type="email"
+            class="modorder-input"
+            name="email"
+            required
+            id="client-email"
+            placeholder="Enter email..."
+          />
+        </div>
+        <div class="input-wrap">
+          <input
+            type="number"
+            class="modorder-input"
+            name="client-card"
+            required
+            id="client-card"
+            placeholder="Enter card..."
+          />
+        </div>
+        <div class="input-wrap">
+          <textarea
+            name="client-comment"
+            id="client-comment"
+            class="modorder-textarea"
+            placeholder="Enter comments..."
+          ></textarea>
+        </div>
       </div>
-      <div class="input-wrap">
-        <input
-          type="email"
-          class="modorder-input"
-          name="email"
-          required
-          id="client-email"
-          placeholder="Enter email..."
-        />
-      </div>
-      <div class="input-wrap">
-        <input
-          type="number"
-          class="modorder-input"
-          name="client-card"
-          required
-          id="client-card"
-          placeholder="Enter card..."
-        />
-      </div>
-      <div class="input-wrap">
-        <textarea
-          name="client-comment"
-          id="client-comment"
-          class="modorder-textarea"
-          placeholder="Enter comments..."
-        ></textarea>
-      </div>
-    </div>
-    <button type="submit" class="modorder-btn">Submit</button>
-  </form>
+      <button type="submit" class="modorder-btn">Submit</button>
+    </form>
+  </div>
 </div>
