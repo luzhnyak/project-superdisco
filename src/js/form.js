@@ -24,5 +24,5 @@ closeBtns.forEach(btn => {
 form.addEventListener('submit', e => {
   e.preventDefault();
   setTimeout(openSuccessModal, 300);
-  setTimeout(closeSuccessModal, 2400);
+  setTimeout(closeSuccessModal, 10000);
 });
