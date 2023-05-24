@@ -155,31 +155,31 @@
   fill: var(--red-color);
 }
 
-/* tel, addres */
-@media screen and (max-width: 767px) {
-  .footer-page {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 14px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .footer-page {
-    margin-bottom: 14px;
-  }
-}
-
-.footer-page:last-child {
-  margin-bottom: 0;
-}
 
 .footer-link {
+  display: block;    
   color: var(--red-color);
+  margin-bottom: 14px;
   transition: var(--transition-color);
+}
+
+.footer-link:last-child {
+  margin-bottom: 0;
 }
 
 .footer-link:hover,
 .footer-link:focus {
   color: var(--hover-color);
+}
+
+/* tel, addres */
+@media screen and (max-width: 767px) {
+  .footer-link {    
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-link {
+    margin-bottom: 14px;
+  }
 }
