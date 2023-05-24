@@ -228,6 +228,7 @@
 }
 
 .modorder-field {
+  width: 295px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -241,14 +242,10 @@
   box-sizing: border-box;
   width: 295px;
   height: 46px;
-  left: 0px;
-  top: 0px;
   opacity: 0.5;
   border: 1px solid var(--black-color);
   border-radius: 100px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  padding-left: 24px;
+  padding: 14px 24px;    
 }
 
 .modorder-input:not(:focus):not(:placeholder-shown):invalid {
@@ -258,13 +255,10 @@
 .modorder-textarea {
   width: 295px;
   height: 132px;
-  left: 0px;
-  top: 180px;
-  opacity: 0.3;
-  border: 2px solid var(--black-color);
+  opacity: 0.5;
+  border: 1px solid var(--black-color);
   border-radius: 20px;
-  padding-top: 14px;
-  padding-left: 24px;
+  padding: 14px 24px;  
 }
 
 @media only screen and (max-width: 374px) {
@@ -274,6 +268,7 @@
   .modorder-textarea {
     width: 280px;}
 }
+
 .modorder-btn {
   display: flex;
   flex-direction: row;

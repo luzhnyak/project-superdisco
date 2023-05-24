@@ -25,7 +25,7 @@
   display: flex;
   align-items: center;
   color: var(--red-color);
-  transition: var(--transition-transform);
+  transition: var(--transition-transform), var(--transition-color);
 }
 
 .logo:hover,
@@ -45,20 +45,21 @@
 
 .button-basket {
   align-items: center;
-  fill: var(--red-color);
+  color: var(--red-color);
   background-color: var(--white-color);
   width: 28px;
   height: 28px;
   border: none;
-  margin-left: 200px;
-  transition: var(--transition-color);
+  margin-left: 200px;  
+  transition: var(--transition-color);  
 }
 .button-basket:hover,
 .button-basket:focus {
-  fill: var(--hover-color);
+  color: var(--hover-color);
 }
 
-.header-basket-icon {
+.header-basket-icon {  
+  fill:currentColor;
   width: 19px;
   height: 24px;
 }
@@ -122,9 +123,7 @@
     z-index: 1000;
     top: 0;
     left: 0;
-    background-color: var(--red-color);
-    /* box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); */
+    background-color: var(--red-color);    
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -144,19 +143,18 @@
     height: 24px;
     background-color: var(--white-color);
     border: none;
-  }
-
-  .mobile-menu-close-btn {
+    color: var(--red-color);
     padding: 0;
     transition: var(--transition-color);
   }
+  
   .mobile-menu-close-btn:hover,
   .mobile-menu-close-btn:focus {
-    fill: var(--hover-color);
+    color: var(--hover-color);
   }
 
   .mobile-menu-close-icon {
-    stroke: var(--red-color);
+    stroke: currentColor;
     width: 24x;
     height: 24px;
   }
@@ -182,24 +180,23 @@
     height: 28px;
     border: none;
     transition: var(--transition-color);
+    color: var(--white-color);
   }
 
   .mobile-button-basket:hover,
   .mobile-button-basket:focus {
-    fill: var(--hover-color);
+    color: var(--hover-color);
   }
 
   .mobile-basket-icon {
     width: 19px;
     height: 24px;
-    fill: var(--white-color);
+    fill: currentColor;
   }
 
   .mobile-navigation {
     text-align: center;
     padding-top: 174px;
-    /* padding-left: 149px;
-    padding-right: 149px; */
   }
 
   .navigation-item {
@@ -237,8 +234,6 @@
   .nav-link:hover,
   .nav-link:focus {
     color: var(--hover-color);
-    /* font-weight: 500; */
-    /* transform: scale(1.1); */
   }
 
   .nav-item:not(:last-child) {
