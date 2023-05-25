@@ -112,7 +112,7 @@
     height: 148px;
   }
   .modal-order-list-text {
-  margin-left: 20px;
+    margin-left: 20px;
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -129,7 +129,6 @@
 .modal-order-list-text {
   display: block;
   margin-right: auto;
-  
 }
 
 .label-checkbox {
@@ -245,11 +244,11 @@
   opacity: 0.5;
   border: 1px solid var(--black-color);
   border-radius: 100px;
-  padding: 14px 24px;    
+  padding: 14px 24px;
 }
 
 .modorder-input:not(:focus):not(:placeholder-shown):invalid {
-  border: 1px solid var(--red-color);  
+  border: 1px solid var(--red-color);
   opacity: 1;
 }
 .modorder-textarea {
@@ -258,15 +257,16 @@
   opacity: 0.5;
   border: 1px solid var(--black-color);
   border-radius: 20px;
-  padding: 14px 24px;  
+  padding: 14px 24px;
 }
 
 @media only screen and (max-width: 374px) {
-  .modorder-input {    
-    width: 280px;    
+  .modorder-input {
+    width: 280px;
   }
   .modorder-textarea {
-    width: 280px;}
+    width: 280px;
+  }
 }
 
 .modorder-btn {
@@ -294,7 +294,7 @@
 @media only screen and (min-width: 768px) {
   .modal-order {
     background-color: var(--white-color);
-    background-image: url(../img/modal-order/girl-tab@1x.png);
+    background-image: url(../img/modal-order/order-girl-tablet@1x.png);
     background-repeat: no-repeat;
     background-position-x: 414px;
     background-position-y: bottom;
@@ -312,13 +312,13 @@
   only screen and (min-width: 768px) and (min-resolution: 192dpi),
   only screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .modal-order {
-    background-image: url(../img/modal-order/girl-tab@2x.png);
+    background-image: url(../img/modal-order/order-girl-tablet@2x.png);
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .modal-order {
-    background-image: url(../img/modal-order/girl-desk@1x.png);
+    background-image: url(../img/modal-order/order-girl-desk@1x.png);
     background-position-x: 420px;
     background-position-y: bottom;
     background-size: 471px 458px;
@@ -329,7 +329,7 @@
   only screen and (min-width: 1280px) and (min-resolution: 192dpi),
   only screen and (min-width: 1280px) and (min-resolution: 2dppx) {
   .modal-order {
-    background-image: url(../img/modal-order/girl-desk@2x.png);
+    background-image: url(../img/modal-order/order-girl-desk@2x.png);
   }
 }
 
