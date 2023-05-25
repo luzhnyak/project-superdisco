@@ -1,14 +1,14 @@
 /* ======================= Hero ========================== */
 /* Hero upper part */
 
-.hero-section {  
+.hero-section {
   background-image: url(../img/images-hero/hero-flying-fruits/flying-fruits-mobile@1x.png);
   padding-top: 104px;
   background-repeat: no-repeat;
   background-position: 50% 0;
 }
 
-.hero-container{
+.hero-container {
   position: relative;
   /* outline: 1px solid #fff;
   outline-offset: 2px; */
@@ -22,7 +22,7 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .hero-upper-part {    
+  .hero-upper-part {
     margin-bottom: 103px;
   }
 }
@@ -69,18 +69,45 @@
 .hero-btn {
   position: absolute;
   bottom: -27px;
-  left: 50%;  
+  left: 38%;
   display: flex;
   justify-content: center;
   padding: 20px 12px;
   width: 80px;
   height: 80px;
-  transform: translateX(-50%) rotate(-14deg);
+
   border: none;
   border-radius: 50%;
   background-color: var(--white-color);
   color: var(--red-color);
   transition: var(--transition-color);
+
+  animation: shake-horizontal 6s cubic-bezier(0.455, 0.03, 0.515, 0.955) 3s
+    infinite both;
+}
+
+@keyframes shake-horizontal {
+  0%,
+  20% {
+    transform: translateX(0);
+  }
+  2%,
+  6%,
+  10%,
+  14% {
+    transform: translateX(-10px);
+  }
+  4%,
+  8%,
+  12% {
+    transform: translateX(10px);
+  }
+  16% {
+    transform: translateX(8px);
+  }
+  18% {
+    transform: translateX(-8px);
+  }
 }
 
 .hero-btn:hover,
@@ -95,6 +122,8 @@
   letter-spacing: -0.04em;
   text-transform: uppercase;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+
+  transform: rotate(-14deg);
 }
 
 .hero-text {
@@ -205,7 +234,7 @@
     padding-top: 105px;
   }
 
-  .hero-header {    
+  .hero-header {
     max-width: 704px;
     top: -40px;
     font-size: 50px;
@@ -216,7 +245,7 @@
     width: 114px;
     height: 114px;
     padding: 30px 15px;
-    bottom: -15px;    
+    bottom: -15px;
   }
 
   .hero-btn-text {
@@ -286,7 +315,7 @@
   .hero-container-right {
     position: absolute;
     top: 230px;
-    right: 45px;    
+    right: 45px;
   }
 
   .hero-hashtag-list {
