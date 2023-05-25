@@ -24,7 +24,7 @@
 
     
     <script type="module" crossorigin src="/project-superdisco/assets/index-9cadd1f3.js"></script>
-    <link rel="stylesheet" href="/project-superdisco/assets/index-267526e0.css">
+    <link rel="stylesheet" href="/project-superdisco/assets/index-b8661a21.css">
   </head>
   <body>
     <!-- Header section -->
@@ -133,34 +133,43 @@
     <!-- Hero upper part -->
     <div class="hero-upper-part">
       <h1 class="hero-header">
-        fresh harvest box <br>
+        fresh harvest box <br />
         is your 0ne-stop place for a delicious fruit basket
       </h1>
       <div class="hero-girl-container">
         <picture>
           <source
             media="(min-width: 768px)"
-            srcset="/project-superdisco/assets/hero-img_tab-desc@1x-ca865a99.jpg 1x, /project-superdisco/assets/hero-img_tab-desc@2x-7c4263d4.jpg 2x"
+            srcset="/project-superdisco/assets/hero-girl-desc@1x-eb8a4dcc.webp 1x, /project-superdisco/assets/hero-girl-desc@2x-070b9cf1.webp 2x"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/project-superdisco/assets/hero-girl-desc@1x-022406e5.jpg 1x, /project-superdisco/assets/hero-girl-desc@2x-e78e57a7.jpg 2x"
             type="image/jpg"
-          >
+          />
           <source
             media="(max-width: 767px)"
-            srcset="/project-superdisco/assets/hero-img_mobile@1x-6c271a2d.jpg 1x, /project-superdisco/assets/hero-img_mobile@2x-01a9cfa2.jpg 2x"
+            srcset="/project-superdisco/assets/hero-girl-mobile@1x-5925927e.webp 1x, /project-superdisco/assets/hero-girl-mobile@2x-f8a3bddf.webp 2x"
+            type="image/webp"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="/project-superdisco/assets/hero-girl-mobile@1x-67377a10.jpg 1x, /project-superdisco/assets/hero-girl-mobile@2x-3b010fe5.jpg 2x"
             type="image/jpg"
-          >
+          />
           <img
             class="hero-girl-img"
-            src="/project-superdisco/assets/hero-img_tab-desc@1x-ca865a99.jpg"
+            src="/project-superdisco/assets/hero-girl-desc@1x-022406e5.jpg"
             alt="smiling girl holding an orange"
             width="452"
             height="702"
-          >
+          />
         </picture>
         <a class="hero-btn link" href="#fruits">
-          <span class="hero-btn-text">shop<br>now</span>
+          <span class="hero-btn-text">shop<br />now</span>
         </a>
       </div>
-      
     </div>
     <!-- Hero bottom part -->
     <div class="hero-bottom-part">
@@ -174,14 +183,23 @@
         <!-- Hero fruit card one -->
         <div class="hero-fruit-card">
           <p class="hero-card-title">Fruit</p>
-          <img
-            class="fruit-card-img"
-            srcset="/project-superdisco/assets/watermelon-hero-card_249@1x-27badc8c.png 1x, /project-superdisco/assets/watermelon-hero-card_498@2x-e3398a69.png 2x"            
-            src="/project-superdisco/assets/watermelon-hero-card_249@1x-27badc8c.png"
-            alt="ripe watermelons"
-            width="249"
-            height="179"
-          >
+          <picture>
+            <source
+              srcset="/project-superdisco/assets/hero-watermelon@1x-4f672991.webp 1x, /project-superdisco/assets/hero-watermelon@2x-1a44ac67.webp 2x"
+              type="image/webp"
+            />
+            <source
+              srcset="/project-superdisco/assets/hero-watermelon@1x-729b7d03.png 1x, /project-superdisco/assets/hero-watermelon@2x-9df438a6.png 2x"
+              type="image/png"
+            />
+            <img
+              class="fruit-card-img"
+              src="/project-superdisco/assets/hero-watermelon@1x-729b7d03.png"
+              alt="ripe watermelons"
+              width="200"
+              height="172"
+            />
+          </picture>
           <p class="fruit-card-descr">
             Refreshing and juicy, watermelon is the perfect summer treat and a
             great source of hydration
@@ -208,14 +226,24 @@
         <!-- Hero fruit card two -->
         <div class="hero-fruit-card hero-second-card">
           <p class="hero-card-title">Fruit</p>
-          <img
-            class="fruit-card-img"
-            srcset="/project-superdisco/assets/strawberry-hero-card_249@1x-a70de283.png 1x, /project-superdisco/assets/strawberry-hero-card_498@2x-f2e41beb.png 2x"            
-            src="./img/images-hero/hero-cards/strawberry-hero-card_@1x.png"
-            alt="a basket full of juicy strawberries"
-            width="249"
-            height="195"
-          >
+          <picture>
+            <source
+              srcset="/project-superdisco/assets/hero-strawberry@1x-82282dd7.webp 1x, /project-superdisco/assets/hero-strawberry@2x-a6392fc9.webp 2x"
+              type="image/webp"
+            />
+            <source
+              srcset="/project-superdisco/assets/hero-strawberry@1x-5158894d.png 1x, /project-superdisco/assets/hero-strawberry@2x-9eb249be.png 2x"
+              type="image/png"
+            />
+            <img
+              class="fruit-card-img"
+              src="/project-superdisco/assets/hero-strawberry@1x-5158894d.png"
+              alt="a basket full of juicy strawberries"
+              width="162"
+              height="185"
+            />
+          </picture>
+
           <p class="fruit-card-descr">
             Sweet and juicy, strawberries are packed with vitamin C and
             antioxidants, making them a delicious and healthy snack
@@ -302,164 +330,218 @@
     </p>
     <ul class="fruits-list list">
       <li class="fruits-item color-wrap-strawberry">
-        <h3 class="fruits-item-title">
-          Strawberry
-        </h3>
-        <p class="fruits-item-text">
-          Plant
-        </p>
+        <h3 class="fruits-item-title">Strawberry</h3>
+        <p class="fruits-item-text">Plant</p>
         <picture>
-          <source srcset="/project-superdisco/assets/strawberry@1x-min-5ac7aa90.webp 1x, /project-superdisco/assets/strawberry@2x-min-5bad4d03.webp 2x"
-            type="image/webp">
-          <source srcset="/project-superdisco/assets/strawberry@1x-min-fc6dee35.png 1x, /project-superdisco/assets/strawberry@2x-min-48307790.png 2x"
-            type="image/png">
-          <img class="fruits-image" src="/project-superdisco/assets/strawberry@1x-min-fc6dee35.png" alt="strawberry picture" width="296"
-            height="285" loading="lazy">
+          <source
+            srcset="/project-superdisco/assets/fruits-strawberry@1x-6314f624.webp 1x, /project-superdisco/assets/fruits-strawberry@2x-2b46198e.webp 2x"
+            type="image/webp"
+          />
+          <source
+            srcset="/project-superdisco/assets/fruits-strawberry@1x-1618e5fe.png 1x, /project-superdisco/assets/fruits-strawberry@2x-361d504d.png 2x"
+            type="image/png"
+          />
+          <img
+            class="fruits-image"
+            src="/project-superdisco/assets/fruits-strawberry@1x-1618e5fe.png"
+            alt="strawberry picture"
+            width="295"
+            height="251"
+            loading="lazy"
+          />
         </picture>
-        <span class="fruits-price-text">
-          100 UAH / kg
-        </span>
+        <span class="fruits-price-text"> 100 UAH / kg </span>
       </li>
       <li class="fruits-item color-wrap-banana">
-        <h3 class="fruits-item-title">
-          Banana
-        </h3>
-        <p class="fruits-item-text">
-          Plant
-        </p>
+        <h3 class="fruits-item-title">Banana</h3>
+        <p class="fruits-item-text">Plant</p>
         <picture>
-          <source srcset="/project-superdisco/assets/banana@1x-min-5e88dcfe.webp 1x, /project-superdisco/assets/banana@2x-min-ca53d452.webp 2x" type="image/webp">
-          <source srcset="/project-superdisco/assets/banana@1x-min-eff0e8ae.png 1x, /project-superdisco/assets/banana@2x-min-b7b0681c.png 2x" type="image/png">
-          <img class="fruits-image" src="/project-superdisco/assets/banana@1x-min-eff0e8ae.png" alt="banana picture" width="296" height="285"
-            loading="lazy">
+          <source
+            srcset="/project-superdisco/assets/fruits-banana@1x-89d40335.webp 1x, /project-superdisco/assets/fruits-banana@2x-a96a2cea.webp 2x"
+            type="image/webp"
+          />
+          <source
+            srcset="/project-superdisco/assets/fruits-banana@1x-c30f5902.png 1x, /project-superdisco/assets/fruits-banana@2x-8df30888.png 2x"
+            type="image/png"
+          />
+          <img
+            class="fruits-image"
+            src="/project-superdisco/assets/fruits-banana@1x-c30f5902.png"
+            alt="banana picture"
+            width="295"
+            height="251"
+            loading="lazy"
+          />
         </picture>
-        <span class="fruits-price-text">
-          80 UAH / kg
-        </span>
+        <span class="fruits-price-text"> 80 UAH / kg </span>
       </li>
       <li class="fruits-item color-wrap-watermelon">
-        <h3 class="fruits-item-title">
-          Watermelon
-        </h3>
-        <p class="fruits-item-text">
-          Plant
-        </p>
+        <h3 class="fruits-item-title">Watermelon</h3>
+        <p class="fruits-item-text">Plant</p>
         <picture>
-          <source srcset="/project-superdisco/assets/watermelon@1x-min-d7420660.webp 1x, /project-superdisco/assets/watermelon@2x-min-02656fb0.webp 2x"
-            type="image/webp">
-          <source srcset="/project-superdisco/assets/watermelon@1x-min-909d3c6f.png 1x, /project-superdisco/assets/watermelon@2x-min-301891f0.png 2x"
-            type="image/png">
-          <img class="fruits-image" src="/project-superdisco/assets/watermelon@1x-min-909d3c6f.png" alt="watermelon picture" width="296"
-            height="285" loading="lazy">
+          <source
+            srcset="/project-superdisco/assets/fruits-watermelon@1x-cd86539d.webp 1x, /project-superdisco/assets/fruits-watermelon@2x-282af766.webp 2x"
+            type="image/webp"
+          />
+          <source
+            srcset="/project-superdisco/assets/fruits-watermelon@1x-69442765.png 1x, /project-superdisco/assets/fruits-watermelon@2x-4225639e.png 2x"
+            type="image/png"
+          />
+          <img
+            class="fruits-image"
+            src="/project-superdisco/assets/fruits-watermelon@1x-69442765.png"
+            alt="watermelon picture"
+            width="295"
+            height="251"
+            loading="lazy"
+          />
         </picture>
-        <span class="fruits-price-text">
-          40 UAH / kg
-        </span>
+        <span class="fruits-price-text"> 40 UAH / kg </span>
       </li>
       <li class="fruits-item color-wrap-lime">
-        <h3 class="fruits-item-title">
-          Lime
-        </h3>
-        <p class="fruits-item-text">
-          Plant
-        </p>
+        <h3 class="fruits-item-title">Lime</h3>
+        <p class="fruits-item-text">Plant</p>
         <picture>
-          <source srcset="/project-superdisco/assets/lime@1x-min-3ba40478.webp 1x, /project-superdisco/assets/lime@2x-min-66092f6e.webp 2x" type="image/webp">
-          <source srcset="/project-superdisco/assets/lime@1x-min-705eb3a4.png 1x, /project-superdisco/assets/lime@2x-min-0d72b2a2.png 2x" type="image/png">
-          <img class="fruits-image" src="/project-superdisco/assets/lime@1x-min-705eb3a4.png" alt="lime picture" width="296" height="285"
-            loading="lazy">
+          <source
+            srcset="/project-superdisco/assets/fruits-lime@1x-bdf99386.webp 1x, /project-superdisco/assets/fruits-lime@2x-dd50d7f1.webp 2x"
+            type="image/webp"
+          />
+          <source
+            srcset="/project-superdisco/assets/fruits-lime@1x-4a2746da.png 1x, /project-superdisco/assets/fruits-lime@2x-c0531523.png 2x"
+            type="image/png"
+          />
+          <img
+            class="fruits-image"
+            src="/project-superdisco/assets/fruits-lime@1x-4a2746da.png"
+            alt="lime picture"
+            width="295"
+            height="251"
+            loading="lazy"
+          />
         </picture>
-        <span class="fruits-price-text">
-          60 UAH / kg
-        </span>
+        <span class="fruits-price-text"> 60 UAH / kg </span>
       </li>
       <li class="fruits-item color-wrap-apple">
-        <h3 class="fruits-item-title">
-          Apple
-        </h3>
-        <p class="fruits-item-text">
-          Plant
-        </p>
+        <h3 class="fruits-item-title">Apple</h3>
+        <p class="fruits-item-text">Plant</p>
         <picture>
-          <source srcset="/project-superdisco/assets/apple@1x-min-68b1726b.webp 1x, /project-superdisco/assets/apple@2x-min-07a47dcd.webp 2x" type="image/webp">
-          <source srcset="/project-superdisco/assets/apple@1x-min-f6200dbd.png 1x, /project-superdisco/assets/apple@2x-min-518aa6eb.png 2x" type="image/png">
-          <img class="fruits-image" src="/project-superdisco/assets/apple@1x-min-f6200dbd.png" alt="apple picture" width="296" height="285"
-            loading="lazy">
+          <source
+            srcset="/project-superdisco/assets/fruits-apple@1x-0fea3403.webp 1x, /project-superdisco/assets/fruits-apple@2x-0942ee06.webp 2x"
+            type="image/webp"
+          />
+          <source
+            srcset="/project-superdisco/assets/fruits-apple@1x-b8fb7c5b.png 1x, /project-superdisco/assets/fruits-apple@2x-055d9de4.png 2x"
+            type="image/png"
+          />
+          <img
+            class="fruits-image"
+            src="/project-superdisco/assets/fruits-apple@1x-b8fb7c5b.png"
+            alt="apple picture"
+            width="295"
+            height="251"
+            loading="lazy"
+          />
         </picture>
-        <span class="fruits-price-text">
-          50 UAH / kg
-        </span>
+        <span class="fruits-price-text"> 50 UAH / kg </span>
       </li>
       <li class="fruits-item color-wrap-peach">
-        <h3 class="fruits-item-title">
-          Peach
-        </h3>
-        <p class="fruits-item-text">
-          Plant
-        </p>
+        <h3 class="fruits-item-title">Peach</h3>
+        <p class="fruits-item-text">Plant</p>
         <picture>
-          <source srcset="/project-superdisco/assets/peach@1x-min-47bac6a8.webp 1x, /project-superdisco/assets/peach@2x-min-33e024c7.webp 2x" type="image/webp">
-          <source srcset="/project-superdisco/assets/peach@1x-min-54b404a0.png 1x, /project-superdisco/assets/peach@2x-min-2cb0ea52.png 2x" type="image/png">
-          <img class="fruits-image" src="/project-superdisco/assets/peach@1x-min-54b404a0.png" alt="peach picture" width="296" height="285"
-            loading="lazy">
+          <source
+            srcset="/project-superdisco/assets/fruits-peach@1x-21c222eb.webp 1x, /project-superdisco/assets/fruits-peach@2x-5b519de8.webp 2x"
+            type="image/webp"
+          />
+          <source
+            srcset="/project-superdisco/assets/fruits-peach@1x-9b1ce111.png 1x, /project-superdisco/assets/fruits-peach@2x-ac72f02f.png 2x"
+            type="image/png"
+          />
+          <img
+            class="fruits-image"
+            src="/project-superdisco/assets/fruits-peach@1x-9b1ce111.png"
+            alt="peach picture"
+            width="295"
+            height="251"
+            loading="lazy"
+          />
         </picture>
-        <span class="fruits-price-text">
-          80 UAH / kg
-        </span>
+        <span class="fruits-price-text"> 80 UAH / kg </span>
       </li>
       <li class="fruits-item color-wrap-plum">
-        <h3 class="fruits-item-title">
-          Plums
-        </h3>
-        <p class="fruits-item-text">
-          Plant
-        </p>
+        <h3 class="fruits-item-title">Plums</h3>
+        <p class="fruits-item-text">Plant</p>
         <picture>
-          <source srcset="/project-superdisco/assets/plum@1x-min-792f34d2.webp 1x, /project-superdisco/assets/plum@2x-min-7cb1d1e2.webp 2x" type="image/webp">
-          <source srcset="/project-superdisco/assets/plum@1x-min-63338160.png 1x, /project-superdisco/assets/plum@2x-min-accce9d5.png 2x" type="image/png">
-          <img class="fruits-image" src="/project-superdisco/assets/plum@1x-min-63338160.png" alt="plums picture" width="296" height="285"
-            loading="lazy">
+          <source
+            srcset="/project-superdisco/assets/fruits-plum@1x-5dd16461.webp 1x, /project-superdisco/assets/fruits-plum@2x-626171f4.webp 2x"
+            type="image/webp"
+          />
+          <source
+            srcset="/project-superdisco/assets/fruits-plum@1x-421418fe.png 1x, /project-superdisco/assets/fruits-plum@2x-e94db906.png 2x"
+            type="image/png"
+          />
+          <img
+            class="fruits-image"
+            src="/project-superdisco/assets/fruits-plum@1x-421418fe.png"
+            alt="plums picture"
+            width="296"
+            height="285"
+            loading="lazy"
+          />
         </picture>
-        <span class="fruits-price-text">
-          40 UAH / kg
-        </span>
+        <span class="fruits-price-text"> 40 UAH / kg </span>
       </li>
       <li class="fruits-item color-wrap-orange">
-        <h3 class="fruits-item-title">
-          Orange
-        </h3>
-        <p class="fruits-item-text">
-          Plant
-        </p>
+        <h3 class="fruits-item-title">Orange</h3>
+        <p class="fruits-item-text">Plant</p>
         <picture>
-          <source srcset="/project-superdisco/assets/orange@1x-min-4556e581.webp 1x, /project-superdisco/assets/orange@2x-min-79200728.webp 2x" type="image/webp">
-          <source srcset="/project-superdisco/assets/orange@1x-min-ebeb077e.png 1x, /project-superdisco/assets/orange@2x-min-ad9a9050.png 2x" type="image/png">
-          <img class="fruits-image" src="/project-superdisco/assets/orange@1x-min-ebeb077e.png" alt="orange picture" width="296" height="285"
-            loading="lazy">
+          <source
+            srcset="/project-superdisco/assets/fruits-orange@1x-c219bc42.webp 1x, /project-superdisco/assets/fruits-orange@2x-4ff2652d.webp 2x"
+            type="image/webp"
+          />
+          <source
+            srcset="/project-superdisco/assets/fruits-orange@1x-75c66537.png 1x, /project-superdisco/assets/fruits-orange@2x-6da0b171.png 2x"
+            type="image/png"
+          />
+          <img
+            class="fruits-image"
+            src="/project-superdisco/assets/fruits-orange@1x-75c66537.png"
+            alt="orange picture"
+            width="296"
+            height="285"
+            loading="lazy"
+          />
         </picture>
-        <span class="fruits-price-text">
-          60 UAH / kg
-        </span>
+        <span class="fruits-price-text"> 60 UAH / kg </span>
       </li>
       <li class="fruits-item color-wrap-kiwi">
-        <h3 class="fruits-item-title">
-          Kiwi
-        </h3>
-        <p class="fruits-item-text">
-          Plant
-        </p>
+        <h3 class="fruits-item-title">Kiwi</h3>
+        <p class="fruits-item-text">Plant</p>
         <picture>
-          <source srcset="/project-superdisco/assets/kiwi@1x-min-86349341.webp 1x, /project-superdisco/assets/kiwi@2x-min-c66fbdfd.webp 2x" type="image/webp">
-          <source srcset="/project-superdisco/assets/kiwi@1x-min-e3501f5a.png 1x, /project-superdisco/assets/kiwi@2x-min-244381d4.png 2x" type="image/png">
-          <img class="fruits-image" src="/project-superdisco/assets/kiwi@1x-min-e3501f5a.png" alt="kiwi picture" width="296" height="285"
-            loading="lazy">
+          <source
+            srcset="/project-superdisco/assets/fruits-kiwi@1x-245a9ca4.webp 1x, /project-superdisco/assets/fruits-kiwi@2x-56ab4022.webp 2x"
+            type="image/webp"
+          />
+          <source
+            srcset="/project-superdisco/assets/fruits-kiwi@1x-2c018d45.png 1x, /project-superdisco/assets/fruits-kiwi@2x-7d620ad8.png 2x"
+            type="image/png"
+          />
+          <img
+            class="fruits-image"
+            src="/project-superdisco/assets/fruits-kiwi@1x-2c018d45.png"
+            alt="kiwi picture"
+            width="296"
+            height="285"
+            loading="lazy"
+          />
         </picture>
-        <span class="fruits-price-text">
-          90 UAH / kg
-        </span>
+        <span class="fruits-price-text"> 90 UAH / kg </span>
       </li>
     </ul>
-    <button class="js-open-modal order-fruits-modal" data-modal="your-order-modal" type="button">
+    <button
+      class="js-open-modal order-fruits-modal"
+      data-modal="your-order-modal"
+      type="button"
+    >
       <svg class="order-arrow" width="14" height="14">
         <use href="/project-superdisco/assets/icons-f31a9c47.svg#icon-arrow"></use>
       </svg>
@@ -467,6 +549,7 @@
     </button>
   </div>
 </section>
+
       <!-- Contacts section -->
 <section class="contacts-section section" id="contacts">
   <div class="container contacts-container">
