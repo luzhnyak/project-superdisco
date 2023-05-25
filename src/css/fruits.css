@@ -207,10 +207,46 @@
   margin-left: auto;
   margin-right: auto;
   height: 80px;
+
+  width: 80px;
+  padding: 0;
   border-radius: 50%;
   border-color: transparent;
-  background-color: var(--green-color);
   color: var(--white-color);
+  background-color: var(--green-color);
+  transition-property: color, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  animation: shake-horizontal 6s cubic-bezier(0.455, 0.03, 0.515, 0.955) 3s
+    infinite both;
+}
+
+@keyframes shake-horizontal {
+  0%,
+  20% {
+    transform: translateX(0);
+  }
+  2%,
+  6%,
+  10%,
+  14% {
+    transform: translateX(-10px);
+  }
+  4%,
+  8%,
+  12% {
+    transform: translateX(10px);
+  }
+  16% {
+    transform: translateX(8px);
+  }
+  18% {
+    transform: translateX(-8px);
+  }
+}
+
+.btn-content {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
@@ -219,7 +255,12 @@
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 
   transform: rotate(-14deg);
-  transition: var(--transition-color), var(--transition-background);
+}
+
+.order-fruits-modal:hover,
+.order-fruits-modal:focus {
+  background-color: var(--white-color);
+  color: var(--green-color);
 }
 
 /* tablet + desktop */
@@ -227,15 +268,10 @@
   .order-fruits-modal {
     width: 114px;
     height: 114px;
-
+  }
+  .btn-content {
     font-size: 18px;
   }
-}
-
-.order-fruits-modal:hover,
-.order-fruits-modal:focus {
-  background-color: var(--white-color);
-  color: var(--green-color);
 }
 
 .order-arrow {
