@@ -7,59 +7,104 @@
         <picture>
           <source
             srcset="
-              ./img/contacts/dtop_melon_792x502.jpg    1x,
-              ./img/contacts/dtop_melon_792x502@2x.jpg 2x
+              ./img/contacts/contacts-melon-desc@1x.webp 1x,
+              ./img/contacts/contacts-melon-desc@2x.webp 2x
             "
             media="(min-width: 1280px)"
-          >
+            type="image/webp"
+          />
           <source
             srcset="
-              ./img/contacts/tablet_melon_344x480.jpg    1x,
-              ./img/contacts/tablet_melon_344x480@2x.jpg 2x
+              ./img/contacts/contacts-melon-desc@1x.jpg 1x,
+              ./img/contacts/contacts-melon-desc@2x.jpg 2x
+            "
+            media="(min-width: 1280px)"
+            type="image/jpg"
+          />
+          <source
+            srcset="
+              ./img/contacts/contacts-melon-tablet@1x.webp 1x,
+              ./img/contacts/contacts-melon-tablet@2x.webp 2x
             "
             media="(min-width: 768px)"
-          >
+            type="image/webp"
+          />
           <source
             srcset="
-              ./img/contacts/mobile_melon_335x476.jpg    1x,
-              ./img/contacts/mobile_melon_335x476@2x.jpg 2x
+              ./img/contacts/contacts-melon-tablet@1x.jpg 1x,
+              ./img/contacts/contacts-melon-tablet@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+            type="image/jpg"
+          />
+          <source
+            srcset="
+              ./img/contacts/contacts-melon-mobile@1x.webp 1x,
+              ./img/contacts/contacts-melon-mobile@2x.webp 2x
             "
             media="(max-width: 767px)"
-          >
+            type="image/webp"
+          />
+          <source
+            srcset="
+              ./img/contacts/contacts-melon-mobile@1x.jpg 1x,
+              ./img/contacts/contacts-melon-mobile@2x.jpg 2x
+            "
+            media="(max-width: 767px)"
+            type="image/jpg"
+          />
           <img
             class="contacts-image-melon"
-            src="./img/contacts/mobile_melon_335x476.jpg"
+            src="./img/contacts/contacts-melon-mobile@1x.jpg"
             alt="melon"
             width="335"
             height="476"
             loading="lazy"
-          >
+          />
         </picture>
       </li>
       <li class="contacts-image-item">
         <picture>
           <source
             srcset="
-              ./img/contacts/dtop_blueberry_400x502.jpg    1x,
-              ./img/contacts/dtop_blueberry_400x502@2x.jpg 2x
+              ./img/contacts/contacts-blueberry-desc@1x.webp 1x,
+              ./img/contacts/contacts-blueberry-desc@1x.webp 2x
             "
             media="(min-width: 1280px)"
-          >
+            type="image/webp"
+          />
           <source
             srcset="
-              ./img/contacts/tablet_blueberry_344x480.jpg    1x,
-              ./img/contacts/tablet_blueberry_344x480@2x.jpg 2x
+              ./img/contacts/contacts-blueberry-desc@1x.jpg 1x,
+              ./img/contacts/contacts-blueberry-desc@1x.jpg 2x
+            "
+            media="(min-width: 1280px)"
+            type="image/jpg"
+          />
+          <source
+            srcset="
+              ./img/contacts/contacts-blueberry-tablet@1x.webp 1x,
+              ./img/contacts/contacts-blueberry-tablet@1x.webp 2x
             "
             media="(min-width: 768px)"
-          >
+            type="image/webp"
+          />
+          <source
+            srcset="
+              ./img/contacts/contacts-blueberry-tablet@1x.jpg 1x,
+              ./img/contacts/contacts-blueberry-tablet@1x.jpg 2x
+            "
+            media="(min-width: 768px)"
+            type="image/jpg"
+          />
           <img
             class="contacts-image-blueberry"
-            src="./img/contacts/tablet_blueberry_344x480.jpg"
+            src="./img/contacts/contacts-blueberry-tablet@1x.jpg"
             alt="blueberry"
             width="344"
             height="480"
             loading="lazy"
-          >
+          />
         </picture>
       </li>
     </ul>
@@ -80,7 +125,7 @@
             id="email"
             placeholder="Enter email..."
             required
-          >
+          />
           <button class="contacts-button" type="submit">Send</button>
         </div>
       </form>

@@ -2,7 +2,7 @@
 /* Hero upper part */
 
 .hero-section {
-  background-image: url(../img/images-hero/hero-flying-fruits/flying-fruits-mobile@1x.png);
+  background-image: url(../img/hero/hero-flying-fruits/flying-fruits-mobile@1x.png);
   padding-top: 104px;
   background-repeat: no-repeat;
   background-position: 50% 0;
@@ -127,7 +127,7 @@
 .hero-fruit-card {
   width: 250px;
   background-color: var(--green-color);
-  background-image: url(../img/images-hero/hero-oval@1x.png);
+  background-image: url(../img/hero/hero-oval@1x.png);
   background-repeat: no-repeat;
   background-size: 239px 38px;
   background-clip: padding-box;
@@ -215,7 +215,7 @@
 
 @media only screen and (min-width: 768px) {
   .hero-section {
-    background-image: url(../img/images-hero/hero-flying-fruits/flying-fruits-tablet@1x.png);
+    background-image: url(../img/hero/hero-flying-fruits/flying-fruits-tablet@1x.png);
     padding-top: 105px;
   }
 
@@ -276,7 +276,7 @@
 
 @media only screen and (min-width: 1280px) {
   .hero-section {
-    background-image: url(../img/images-hero/hero-flying-fruits/flying-fruits-desc@1x.png);
+    background-image: url(../img/hero/hero-flying-fruits/flying-fruits-desc@1x.png);
     padding-top: 105px;
   }
 
