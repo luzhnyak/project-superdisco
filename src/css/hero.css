@@ -1,14 +1,14 @@
 /* ======================= Hero ========================== */
 /* Hero upper part */
 
-.hero-section {  
+.hero-section {
   background-image: url(../img/images-hero/hero-flying-fruits/flying-fruits-mobile@1x.png);
   padding-top: 104px;
   background-repeat: no-repeat;
   background-position: 50% 0;
 }
 
-.hero-container{
+.hero-container {
   position: relative;
   /* outline: 1px solid #fff;
   outline-offset: 2px; */
@@ -22,7 +22,7 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .hero-upper-part {    
+  .hero-upper-part {
     margin-bottom: 103px;
   }
 }
@@ -69,7 +69,7 @@
 .hero-btn {
   position: absolute;
   bottom: -27px;
-  left: 50%;  
+  left: 50%;
   display: flex;
   justify-content: center;
   padding: 20px 12px;
@@ -122,46 +122,60 @@
   gap: 44px;
 }
 
+/* Hero card */
+
 .hero-fruit-card {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  width: 250px;
+  background-color: var(--green-color);
+  background-image: url(../img/images-hero/hero-oval@1x.png);
+  background-repeat: no-repeat;
+  background-size: 239px 38px;
+  background-clip: padding-box;
+  background-position: center 228px;
   padding-top: 28px;
   padding-bottom: 40px;
-  width: 249px;
-  min-height: auto;
-  background-color: var(--green-color);
   border-radius: 500px;
 }
 
 .hero-card-title {
   margin-bottom: 61px;
-  font-weight: 400;
-  font-size: 12px;
+  text-align: center;
+  font-size: 14px;
   line-height: 1.17;
   letter-spacing: -0.04em;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
 
+.fruit-card-img {
+  margin: 0 auto 2px auto;
+}
+
 .fruit-card-descr {
-  max-width: 155px;
+  width: 155px;
+  margin: 0 auto;
+  text-align: center;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: -0.04em;
   text-transform: uppercase;
-  text-align: center;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
 
 .hero-second-card {
   background-color: var(--yellow-color);
+  background-position: center 210px;
 }
 
-.hero-second-card > .hero-card-title {
+.hero-second-card .hero-card-title {
   margin-bottom: 19px;
 }
-.hero-second-card > .fruit-card-descr {
+
+.hero-second-card .fruit-card-img {
+  margin-bottom: 17px;
+}
+
+.hero-second-card .fruit-card-descr {
   max-width: 163px;
 }
 
@@ -205,7 +219,7 @@
     padding-top: 105px;
   }
 
-  .hero-header {    
+  .hero-header {
     max-width: 704px;
     top: -40px;
     font-size: 50px;
@@ -216,7 +230,7 @@
     width: 114px;
     height: 114px;
     padding: 30px 15px;
-    bottom: -15px;    
+    bottom: -15px;
   }
 
   .hero-btn-text {
@@ -286,7 +300,7 @@
   .hero-container-right {
     position: absolute;
     top: 230px;
-    right: 45px;    
+    right: 45px;
   }
 
   .hero-hashtag-list {

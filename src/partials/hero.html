@@ -4,7 +4,7 @@
     <!-- Hero upper part -->
     <div class="hero-upper-part">
       <h1 class="hero-header">
-        fresh harvest box <br>
+        fresh harvest box <br />
         is your 0ne-stop place for a delicious fruit basket
       </h1>
       <div class="hero-girl-container">
@@ -12,32 +12,47 @@
           <source
             media="(min-width: 768px)"
             srcset="
-              ./img/images-hero/hero-girl/hero-img_tab-desc@1x.jpg 1x,
-              ./img/images-hero/hero-girl/hero-img_tab-desc@2x.jpg 2x
+              ./img/hero/hero-girl-desc@1x.webp 1x,
+              ./img/hero/hero-girl-desc@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/hero/hero-girl-desc@1x.jpg 1x,
+              ./img/hero/hero-girl-desc@2x.jpg 2x
             "
             type="image/jpg"
-          >
+          />
           <source
             media="(max-width: 767px)"
             srcset="
-              ./img/images-hero/hero-girl/hero-img_mobile@1x.jpg 1x,
-              ./img/images-hero/hero-girl/hero-img_mobile@2x.jpg 2x
+              ./img/hero/hero-girl-mobile@1x.webp 1x,
+              ./img/hero/hero-girl-mobile@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/hero/hero-girl-mobile@1x.jpg 1x,
+              ./img/hero/hero-girl-mobile@2x.jpg 2x
             "
             type="image/jpg"
-          >
+          />
           <img
             class="hero-girl-img"
-            src="./img/images-hero/hero-girl/hero-img_tab-desc@1x.jpg"
+            src="./img/hero/hero-girl-desc@1x.jpg"
             alt="smiling girl holding an orange"
             width="452"
             height="702"
-          >
+          />
         </picture>
         <a class="hero-btn link" href="#fruits">
-          <span class="hero-btn-text">shop<br>now</span>
+          <span class="hero-btn-text">shop<br />now</span>
         </a>
       </div>
-      
     </div>
     <!-- Hero bottom part -->
     <div class="hero-bottom-part">
@@ -51,17 +66,29 @@
         <!-- Hero fruit card one -->
         <div class="hero-fruit-card">
           <p class="hero-card-title">Fruit</p>
-          <img
-            class="fruit-card-img"
-            srcset="
-              ./img/images-hero/hero-cards/watermelon-hero-card_249@1x.png 1x,
-              ./img/images-hero/hero-cards/watermelon-hero-card_498@2x.png 2x
-            "            
-            src="./img/images-hero/hero-cards/watermelon-hero-card_249@1x.png"
-            alt="ripe watermelons"
-            width="249"
-            height="179"
-          >
+          <picture>
+            <source
+              srcset="
+                ./img/hero/hero-watermelon@1x.webp 1x,
+                ./img/hero/hero-watermelon@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              srcset="
+                ./img/hero/hero-watermelon@1x.png 1x,
+                ./img/hero/hero-watermelon@2x.png 2x
+              "
+              type="image/png"
+            />
+            <img
+              class="fruit-card-img"
+              src="./img/hero/hero-watermelon@1x.png"
+              alt="ripe watermelons"
+              width="200"
+              height="172"
+            />
+          </picture>
           <p class="fruit-card-descr">
             Refreshing and juicy, watermelon is the perfect summer treat and a
             great source of hydration
@@ -88,17 +115,30 @@
         <!-- Hero fruit card two -->
         <div class="hero-fruit-card hero-second-card">
           <p class="hero-card-title">Fruit</p>
-          <img
-            class="fruit-card-img"
-            srcset="
-              ./img/images-hero/hero-cards/strawberry-hero-card_249@1x.png 1x,
-              ./img/images-hero/hero-cards/strawberry-hero-card_498@2x.png 2x
-            "            
-            src="./img/images-hero/hero-cards/strawberry-hero-card_@1x.png"
-            alt="a basket full of juicy strawberries"
-            width="249"
-            height="195"
-          >
+          <picture>
+            <source
+              srcset="
+                ./img/hero/hero-strawberry@1x.webp 1x,
+                ./img/hero/hero-strawberry@2x.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              srcset="
+                ./img/hero/hero-strawberry@1x.png 1x,
+                ./img/hero/hero-strawberry@2x.png 2x
+              "
+              type="image/png"
+            />
+            <img
+              class="fruit-card-img"
+              src="./img/hero/hero-strawberry@1x.png"
+              alt="a basket full of juicy strawberries"
+              width="162"
+              height="185"
+            />
+          </picture>
+
           <p class="fruit-card-descr">
             Sweet and juicy, strawberries are packed with vitamin C and
             antioxidants, making them a delicious and healthy snack
