@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
       parentModal.classList.remove('active');
       overlay.classList.remove('active');
-
+      bodyScrollLock['enableBodyScroll'](document.body);
     });
   }); // end foreach
 
