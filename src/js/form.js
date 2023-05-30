@@ -9,11 +9,13 @@ const openSuccessModal = () => {
   thankModal.classList.add(MODAL_ACTIVE_CLASS_NAME);
   backdrop.classList.add(MODAL_ACTIVE_CLASS_NAME);
   console.log('first');
+  bodyScrollLock['disableBodyScroll'](document.body);
 };
 const closeSuccessModal = () => {
   thankModal.classList.remove(MODAL_ACTIVE_CLASS_NAME);
   backdrop.classList.remove(MODAL_ACTIVE_CLASS_NAME);
-  input.value = '';
+  input.value = '';    
+  bodyScrollLock['enableBodyScroll'](document.body);
 };
 closeBtns.forEach(btn => {
   btn.addEventListener('click', e => {
